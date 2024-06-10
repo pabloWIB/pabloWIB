@@ -18,7 +18,7 @@
 <p align="left">
 🎓 Desarrollador de Software
 
-📝 roles en el ámbito: desarrollador... líder... arquitecto... emprendedor... programador freelance... y en un futuro quién sabe ☺️
+📝 roles en el ámbito: Desarrollador... Diseñador... Emprendedor... Programador freelance... Estudiante... y en un futuro quién sabe ☺️
 
 📫 Contacto: **pablonietoperez369@gmail.com**
   </p>
