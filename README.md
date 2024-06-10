@@ -45,20 +45,26 @@
   </p>
 
 <h2 >Tecnologías conocidas👨🏻‍💻</h2>
+<br>
 <p align="left">
-  
+
+  <h4>Front end: </h4>
   <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,bootstrap,materialui,js,jquery,react"/>
   <br>
-
+  
+  <h4>Back end: </h4>
   <img src="https://skillicons.dev/icons?i=nodejs,java,mongodb" />
   <br>
 
+  <h4>Service: </h4>
   <img src="https://skillicons.dev/icons?i=git,github,postman"/>
   <br>
 
+  <h4>IDEs: </h4>
   <img src="https://skillicons.dev/icons?i=vscode,sublime"/>
   <br>
 
+  <h4>App:</h4>
   <img src="https://skillicons.dev/icons?i=figma,stackoverflow,notion,ai,ps&perline=12" />
 
 <h4>Otras Tecnologías:</h4>
