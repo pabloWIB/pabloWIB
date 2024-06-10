@@ -6,12 +6,11 @@
   
 <a href="https://www.tiktok.com/search?q=wibinweb" target="blank"><img align="center" src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="@wibinweb" /></a>
   
-<a href="www.linkedin.com/in/pablo-nieto-perez-39a530292" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="unsimpledev"/></a>
+<a href="https://www.linkedin.com/in/pablo-nieto-perez-39a530292/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Pablo Nieto"/></a>
   
 <a href="https://www.instagram.com/wibinweb/" target="blank"><img align="center" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="wibinweb"  /></a>
 
-
-<a href = "mailto:unsimpledev@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="@unsimpledev"  /></a>
+<a href = "mailto:pablonietoperez369@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="@unsimpledev"  /></a>
   </p>
 <br>
 <h2>Sobre mi 😃</h2>
@@ -20,7 +19,7 @@
 <p align="left">
 🎓 Desarrollador de Software
 
-📝 roles en el ámbito: desarrollador... líder... arquitecto... cofundador... emprendedor... programador freelance... y en un futuro quién sabe ☺️
+📝 roles en el ámbito: desarrollador... líder... arquitecto... emprendedor... programador freelance... y en un futuro quién sabe ☺️
 
 📫 Contacto: **pablonietoperez369@gmail.com**
 <!--Intro end-->
