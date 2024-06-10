@@ -53,28 +53,13 @@
 <h2 >Tecnologías conocidas👨🏻‍💻</h2>
 <p align="left">
   
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,bootstrap,materialui,js,jquery,react"/>
-  </a>
+  <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,bootstrap,materialui,js,jquery,react"/>
 
-  <br>
+  <img src="https://skillicons.dev/icons?i=nodejs,java,mongodb" />
 
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,java,mongodb" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=git,github,postman"/>
 
-  <br>
-
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,postman"/>
-  </a>
-
-
-  <br>
-
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=figma,stackoverflow,notion,ai,ps&perline=12" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=figma,stackoverflow,notion,ai,ps&perline=12" />
 
 <h4>Otras Tecnologías:</h4>
 
