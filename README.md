@@ -62,7 +62,7 @@
   <img src="https://skillicons.dev/icons?i=git,github,postman"/>
   <br>
 
-  <img src="https://skillicons.dev/icons?i=vscode"/>
+  <img src="https://skillicons.dev/icons?i=vscode,sublime"/>
   <br>
 
   <img src="https://skillicons.dev/icons?i=figma,stackoverflow,notion,ai,ps&perline=12" />
