@@ -1,6 +1,7 @@
 <h1 align="center">Hola 👋  soy Pablo Nieto / pabloWIB ✨ </h1> 
 
 <h3 align="center">Soy desarrollador de software enfocado en el desarrollo Front End</h3>
+<br>
 
 <p align="left">
   
@@ -18,7 +19,7 @@
 
 📫 Contacto: **pablonietoperez369@gmail.com**
 
-<br><br>
+<br>
 
   <p>Especializado en Páginas Responsive | Experiencia en Proyectos ERP Microsoft | Desarrollo UI/UX y Diseños por medio de Figma y maquetación web</p></p>
 
@@ -42,7 +43,6 @@
   </ul>
 
   </p>
-<br>
 
 <h2 >Tecnologías conocidas👨🏻‍💻</h2>
 <p align="left">
