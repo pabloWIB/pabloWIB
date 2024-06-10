@@ -1,6 +1,6 @@
 <h1 align="center">Hola 👋  soy Pablo Nieto / pabloWIB ✨ </h1> 
 
-<h3>Soy desarrollador de software enfocado en el desarrollo Front End</h3>
+<h3 align="center">Soy desarrollador de software enfocado en el desarrollo Front End</h3>
 
 <p align="left">
   
@@ -23,6 +23,27 @@
 📝 roles en el ámbito: Desarrollador... Diseñador... Emprendedor... Programador freelance... Estudiante... y en un futuro quién sabe ☺️
 
 📫 Contacto: **pablonietoperez369@gmail.com**
+
+
+  <p>Especializado en Páginas Responsive | Experiencia en Proyectos ERP Microsoft</p>
+
+  <p>Soy desarrollador web con más de 2 años de experiencia. Me especializo en el desarrollo de páginas web responsive, la conversión de diseños estáticos a experiencias dinámicas y la implementación de funcionalidades con JavaScript y CSS.</p>
+
+  <p>Experiencia en el diseño e implementación de módulos para facturación electrónica en la industria financiera</p>
+  <h2>Ofrezco:</h2>
+  <ul>
+      <li>Desarrollo de páginas web responsive para una experiencia óptima en todos los dispositivos.</li>
+      <li>Transformación de diseños estáticos en sitios web dinámicos y funcionales.</li>
+      <li>Implementación de funcionalidades modernas con JavaScript y CSS.</li>
+  </ul>
+  <h2>Experiencia:</h2>
+
+  <ul>
+      <li>He trabajado en diversos proyectos, incluyendo colaboraciones en la plataforma de Fiverr.</li>
+      <li>Diseño e implementación de módulos para facturación electrónica (compra y venta).</li>
+      <li>Trabajo en proyectos vinculados con sistemas ERP, incluyendo Microsoft.</li>
+  </ul>
+
   </p>
 <br>
 
