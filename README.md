@@ -57,17 +57,25 @@
     <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,bootstrap,materialui,js,jquery,react,"/>
   </a>
 
+  <br>
+
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=nodejs,java,mongodb,figma,vscode,sublime,stackoverflow,notion,ai,ps&perline=12," />
   </a>
+
+  <br>
 
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,github,postman" />
   </a>
 
+  <br>
+
   <a href="https://skillicons.dev">
     <img src="vscode,sublime"/>
   </a>
+
+  <br>
 
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=nodejs,java,mongodb,git,github,postman,figma,vscode,sublime,stackoverflow,notion,ai,ps&perline=12" />
