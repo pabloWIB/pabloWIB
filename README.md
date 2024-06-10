@@ -54,19 +54,19 @@
 <p align="left">
   
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,bootstrap,materialui,js,jquery,react,"/>
+    <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,bootstrap,materialui,js,jquery,react"/>
   </a>
 
   <br>
 
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,java,mongodb,figma,vscode,sublime,stackoverflow,notion,ai,ps&perline=12," />
+    <img src="https://skillicons.dev/icons?i=nodejs,java,mongodb" />
   </a>
 
   <br>
 
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,postman" />
+    <img src="https://skillicons.dev/icons?i=git,github,postman"/>
   </a>
 
   <br>
@@ -78,7 +78,7 @@
   <br>
 
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,java,mongodb,git,github,postman,figma,vscode,sublime,stackoverflow,notion,ai,ps&perline=12" />
+    <img src="https://skillicons.dev/icons?i=figma,stackoverflow,notion,ai,ps&perline=12" />
   </a>
 
 <h4>Otras Tecnologías:</h4>
