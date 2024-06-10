@@ -69,11 +69,6 @@
     <img src="https://skillicons.dev/icons?i=git,github,postman"/>
   </a>
 
-  <br>
-
-  <a href="https://skillicons.dev">
-    <img src="vscode,sublime"/>
-  </a>
 
   <br>
 
