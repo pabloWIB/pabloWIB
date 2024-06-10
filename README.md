@@ -10,7 +10,6 @@
   
 <a href="https://www.instagram.com/wibinweb/" target="blank"><img align="center" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="wibinweb"  /></a>
 
-<a href = "mailto:pablonietoperez369@gmail.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="@unsimpledev"  /></a>
   </p>
 <br>
 <h2>Sobre mi 😃</h2>
@@ -22,12 +21,10 @@
 📝 roles en el ámbito: desarrollador... líder... arquitecto... emprendedor... programador freelance... y en un futuro quién sabe ☺️
 
 📫 Contacto: **pablonietoperez369@gmail.com**
-<!--Intro end-->
   </p>
 <br>
 
 <h2 >Tecnologías conocidas👨🏻‍💻</h2>
-<!--tech stack icons-->
 <p align="left">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=androidstudio,c,cs,cpp,java,php,dart,flutter,py,dotnet,css,html,js,nodejs,mysql,sqlite,firebase,gtk,git,github,docker,materialui,postman,eclipse,vscode,bash,linux,ai,ps&perline=12" />
@@ -35,16 +32,6 @@
 </p>
 
   
-</tr>
-</table>
-  </div>
-<br>
-<br><br>
-<br>
-<br><br><br>
-<br><br>
-
-
 <h2>GitHub :octocat:</h2>
 <!--- stats & Trophy (start) -->
 <p align="center">
