@@ -62,6 +62,9 @@
   <img src="https://skillicons.dev/icons?i=git,github,postman"/>
   <br>
 
+  <img src="https://skillicons.dev/icons?i=vscode"/>
+  <br>
+
   <img src="https://skillicons.dev/icons?i=figma,stackoverflow,notion,ai,ps&perline=12" />
 
 <h4>Otras Tecnologías:</h4>
