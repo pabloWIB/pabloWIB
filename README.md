@@ -54,10 +54,13 @@
 <p align="left">
   
   <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,bootstrap,materialui,js,jquery,react"/>
+  <br>
 
   <img src="https://skillicons.dev/icons?i=nodejs,java,mongodb" />
+  <br>
 
   <img src="https://skillicons.dev/icons?i=git,github,postman"/>
+  <br>
 
   <img src="https://skillicons.dev/icons?i=figma,stackoverflow,notion,ai,ps&perline=12" />
 
