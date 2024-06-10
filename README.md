@@ -24,10 +24,11 @@
 
 📫 Contacto: **pablonietoperez369@gmail.com**
 
+<br><br>
 
-  <p>Especializado en Páginas Responsive | Experiencia en Proyectos ERP Microsoft</p>
+  <p>Especializado en Páginas Responsive | Experiencia en Proyectos ERP Microsoft | Desarrollo UI/UX y Diseños por medio de Figma y maquetación web</p></p>
 
-  <p>Soy desarrollador web con más de 2 años de experiencia. Me especializo en el desarrollo de páginas web responsive, la conversión de diseños estáticos a experiencias dinámicas y la implementación de funcionalidades con JavaScript y CSS.</p>
+  <p>Soy desarrollador web con más de 3 años de experiencia. Me especializo en el desarrollo de páginas web responsive, la conversión de diseños estáticos a experiencias dinámicas y la implementación de funcionalidades con JavaScript y CSS.</p>
 
   <p>Experiencia en el diseño e implementación de módulos para facturación electrónica en la industria financiera</p>
   <h2>Ofrezco:</h2>
@@ -35,6 +36,8 @@
       <li>Desarrollo de páginas web responsive para una experiencia óptima en todos los dispositivos.</li>
       <li>Transformación de diseños estáticos en sitios web dinámicos y funcionales.</li>
       <li>Implementación de funcionalidades modernas con JavaScript y CSS.</li>
+      <li>Desarrollo UI/UX y diseños por medio de Figma.</li>
+      <li>Maquetación web.</li>
   </ul>
   <h2>Experiencia:</h2>
 
@@ -52,4 +55,8 @@
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=androidstudio,c,cs,cpp,java,php,dart,flutter,py,dotnet,css,html,js,nodejs,mysql,sqlite,firebase,gtk,git,github,docker,materialui,postman,eclipse,vscode,bash,linux,ai,ps&perline=12" />
   </a>
+
+<h4>Otras Tecnologías:</h4>
+<p></p>
+  
 </p>
