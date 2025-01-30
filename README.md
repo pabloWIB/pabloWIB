@@ -1,4 +1,4 @@
-<h1 align="center">Hola 👋  soy Pablo Nieto / pabloWIB ✨ </h1> 
+<h1 align="center">Hola 👋  soy Pablo </h1> 
 
 <h3 align="center">Soy desarrollador de software enfocado en el desarrollo Front End</h3>
 <br>
@@ -12,65 +12,4 @@
 <h2>Sobre mi 😃</h2>
 <!--Intro start-->
 
-<p align="left">
-🎓 Desarrollador de Software
-
-📝 roles en el ámbito: Desarrollador... Diseñador... Emprendedor... Programador freelance... Estudiante... y en un futuro quién sabe ☺️
-
-📫 Contacto: **pablonietoperez369@gmail.com**
-
-<br>
-
-  <p>Especializado en Páginas Responsive | Experiencia en Proyectos ERP Microsoft | Desarrollo UI/UX y Diseños por medio de Figma y maquetación web</p></p>
-
-  <p>Soy desarrollador web con más de 3 años de experiencia. Me especializo en el desarrollo de páginas web responsive, la conversión de diseños estáticos a experiencias dinámicas y la implementación de funcionalidades con JavaScript y CSS.</p>
-
-  <p>Experiencia en el diseño e implementación de módulos para facturación electrónica en la industria financiera</p>
-  <h2>Ofrezco:</h2>
-  <ul>
-      <li>Desarrollo de páginas web responsive para una experiencia óptima en todos los dispositivos.</li>
-      <li>Transformación de diseños estáticos en sitios web dinámicos y funcionales.</li>
-      <li>Implementación de funcionalidades modernas con JavaScript y CSS.</li>
-      <li>Desarrollo UI/UX y diseños por medio de Figma.</li>
-      <li>Maquetación web.</li>
-  </ul>
-  <h2>Experiencia:</h2>
-
-  <ul>
-      <li>He trabajado en diversos proyectos, incluyendo colaboraciones en la plataforma de Fiverr.</li>
-      <li>Diseño e implementación de módulos para facturación electrónica (compra y venta).</li>
-      <li>Trabajo en proyectos vinculados con sistemas ERP, incluyendo Microsoft.</li>
-  </ul>
-
-  </p>
-
-<h2 >Tecnologías conocidas👨🏻‍💻</h2>
-<br>
-<p align="left">
-
-  <h4>Front end: </h4>
-  <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,bootstrap,materialui,js,jquery,react"/>
-  
-  <h4>Back end: </h4>
-  <img src="https://skillicons.dev/icons?i=nodejs,java,mongodb" />
-
-  <h4>Service: </h4>
-  <img src="https://skillicons.dev/icons?i=git,github,postman"/>
-
-  <h4>IDEs: </h4>
-  <img src="https://skillicons.dev/icons?i=vscode,sublime"/>
-
-  <h4>App:</h4>
-  <img src="https://skillicons.dev/icons?i=figma,stackoverflow,notion,ai,ps&perline=12" />
-
-<h4>Otras Tecnologías:</h4>
-
-<ul>
-  <li>C/AL</li>
-  <li>Microsoft Report Builder</li>
-  <li>Business Central</li>
-</ul>
-
-<p></p>
-  
-</p>
+<h3 align="center">Software Developer with a Focus on Front-End Development</h3> <p align="left"> 🎓 Software Developer <br> 📝 Roles: Developer | Designer | Entrepreneur | Freelance Programmer | Student | And who knows what the future holds... </p> <p align="left"> 📫 Contact: <a href="https://es.fiverr.com/pablonietop" target="blank"><img align="center" src="https://img.shields.io/badge/fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="@FiverrPablo" /></a> </p> <br> <p> I am a web developer with over 3 years of experience. I specialize in responsive web development, transforming static designs into dynamic experiences, and implementing functionality with JavaScript and CSS. </p> <p> I have experience designing and implementing electronic invoicing modules for the financial industry, as well as collaborating on ERP-related projects, including Microsoft ERP systems. </p> <h2>What I Offer:</h2> <ul> <li>Responsive web development for optimal user experience across all devices.</li> <li>Transforming static designs into dynamic, functional websites.</li> <li>Implementing modern functionality using JavaScript and CSS.</li> <li>UI/UX development and design using Figma.</li> <li>Web layout and page structuring.</li> </ul> <h2>Experience:</h2> <ul> <li>Collaborated on various projects, including freelance work on Fiverr.</li> <li>Designed and implemented electronic invoicing modules for buying and selling transactions.</li> <li>Worked on ERP systems, including Microsoft ERP platforms.</li> </ul> <h2>Technologies I Work With 👨🏻‍💻</h2> <p align="left"> <h4>Front-End:</h4> <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,bootstrap,materialui,js,jquery,react" /> <h4>Back-End:</h4> <img src="https://skillicons.dev/icons?i=nodejs,java,mongodb" /> <h4>Services:</h4> <img src="https://skillicons.dev/icons?i=git,github,postman" /> <h4>IDEs:</h4> <img src="https://skillicons.dev/icons?i=vscode,sublime" /> <h4>Apps:</h4> <img src="https://skillicons.dev/icons?i=figma,stackoverflow,notion,ai,ps&perline=12" /> <h4>Other Technologies:</h4> <ul> <li>C/AL</li> <li>Microsoft Report Builder</li> <li>Business Central</li> </ul> </p> <h2>Portfolio:</h2> <p> Explore my portfolio of completed projects: <a href="https://www.fiverr.com/users/pablonietop/portfolio?roleIds=" target="_blank">View Portfolio</a> </p>
