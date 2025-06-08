@@ -1,17 +1,147 @@
+# Hello 👋 I'm Pablo
 
-<h1 align="center">Hello 👋 I am Pablo </h1> 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Software+Developer;Full+Stack+Engineer;UI%2FUX+Enthusiast;Problem+Solver" alt="Typing SVG" />
+</p>
 
-<h3 align="center">Software Developer</h3>
-<br>
+<p align="center">
+  <a href="https://es.fiverr.com/pablonietop"><img src="https://img.shields.io/badge/fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Fiverr"/></a>
+  <a href="https://www.linkedin.com/in/pablo-nieto-perez-39a530292/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.tiktok.com/search?q=wibinweb"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"/></a>
+  <a href="https://www.instagram.com/wib.web/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+</p>
 
-<p align="left">
-  
-  <a href="https://es.fiverr.com/pablonietop" target="blank"><img align="center" src="https://img.shields.io/badge/fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="@FiverrPablo"  /></a><a href="https://www.tiktok.com/search?q=wibinweb" target="blank"><img align="center" src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="@wibinweb" /></a><a href="https://www.linkedin.com/in/pablo-nieto-perez-39a530292/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Pablo Nieto"/></a><a href="https://www.instagram.com/wib.web/" target="blank"><img align="center" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="wibinweb"  /></a>
+---
 
-  </p>
-<br>
-<h2>About me 😃</h2>
-<!--Intro start-->
+## 🚀 About Me
 
-<p align="left"> 🎓 Software Developer <br> 📝 Roles: Developer | Designer | Entrepreneur | Freelance Programmer | Student | And who knows what the future holds... </p> <p align="left"> 📫 Contact: <a href="https://es.fiverr.com/pablonietop" target="blank"><img align="center" src="https://img.shields.io/badge/fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="@FiverrPablo" /></a> </p> <br> <p> I am a web developer with over 3 years of experience. I specialize in responsive web development, transforming static designs into dynamic experiences, and implementing functionality with JavaScript and CSS. </p> <p> I have experience designing and implementing electronic invoicing modules for the financial industry, as well as collaborating on ERP-related projects, including Microsoft ERP systems. </p> <h2>What I Offer:</h2> <ul> <li>Responsive web development for optimal user experience across all devices.</li> <li>Transforming static designs into dynamic, functional websites.</li> <li>Implementing modern functionality using JavaScript and CSS.</li> <li>UI/UX development and design using Figma.</li> <li>Web layout and page structuring.</li> </ul> <h2>Experience:</h2> <ul> <li>Collaborated on various projects, including freelance work on Fiverr.</li> <li>Designed and implemented electronic invoicing modules for buying and selling transactions.</li> <li>Worked on ERP systems, including Microsoft ERP platforms.</li> </ul> <h2>Technologies I Work With 👨🏻‍💻</h2> <p align="left"> <h4>Front-End:</h4> <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,bootstrap,materialui,js,jquery,react" /> <h4>Back-End:</h4> <img src="https://skillicons.dev/icons?i=nodejs,java,mongodb" /> <h4>Services:</h4> <img src="https://skillicons.dev/icons?i=git,github,postman" /> <h4>IDEs:</h4> <img src="https://skillicons.dev/icons?i=vscode,sublime" /> <h4>Apps:</h4> <img src="https://skillicons.dev/icons?i=figma,stackoverflow,notion,ai,ps&perline=12" /> <h4>Other Technologies:</h4> <ul> <li>C/AL</li> <li>Microsoft Report Builder</li> <li>Business Central</li> </ul> </p> <h2>Portfolio:</h2> <p> Explore my portfolio of completed projects: <a href="https://www.fiverr.com/users/pablonietop/portfolio?roleIds=" target="_blank">View Portfolio</a> </p>
+**Software Developer** with over 3 years of experience specializing in responsive web development and full-stack solutions. I transform static designs into dynamic, functional experiences while implementing modern web technologies.
 
+**Current Focus:**
+- 🎯 Full-stack web development
+- 🎨 UI/UX design and implementation
+- 💼 ERP systems and business solutions
+- 🚀 Freelance development projects
+
+**Roles:** Developer | Designer | Entrepreneur | Freelancer | Student
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend Development
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,sass,tailwind,bootstrap" />
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,vue" />
+  <img src="https://skillicons.dev/icons?i=jquery" />
+</p>
+
+### Backend Development
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,java,php,python" />
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb,supabase" />
+</p>
+
+### Cloud & Deployment
+<p>
+  <img src="https://skillicons.dev/icons?i=vercel,git,github" />
+  <img src="https://skillicons.dev/icons?i=windows" />
+</p>
+
+### Tools & Software
+<p>
+  <img src="https://skillicons.dev/icons?i=vscode,sublime,figma,ps" />
+  <img src="https://skillicons.dev/icons?i=postman,notion" />
+</p>
+
+### CMS & Other Technologies
+<p>
+  <img src="https://skillicons.dev/icons?i=wordpress" />
+</p>
+
+**Specialized Technologies:**
+- C/AL Programming
+- Microsoft Report Builder
+- Business Central Development
+- Microsoft ERP Systems
+
+---
+
+## 💼 What I Offer
+
+🌐 **Web Development**
+- Responsive web applications optimized for all devices
+- Modern UI/UX implementation using Figma designs
+- Full-stack development with React, Next.js, and Vue.js
+
+⚡ **Backend Solutions**
+- RESTful API development with Node.js
+- Database design and optimization (MySQL, MongoDB, Supabase)
+- Server-side logic and data management
+
+🏢 **Business Solutions**
+- Electronic invoicing modules for financial systems
+- ERP integration and customization
+- Microsoft Business Central development
+
+🎨 **Design & UX**
+- Converting static designs to interactive web experiences
+- Modern CSS animations and transitions
+- Cross-browser compatibility
+
+---
+
+## 🌟 Experience Highlights
+
+- **3+ years** of professional web development
+- **Electronic Invoicing Systems** - Designed and implemented modules for financial transactions
+- **ERP Development** - Collaborated on Microsoft ERP platforms and Business Central
+- **Freelance Success** - Active on Fiverr with multiple completed projects
+- **Full-Stack Projects** - Experience with both frontend and backend technologies
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=radical" alt="GitHub Streak" />
+</p>
+
+---
+
+## 🎯 Current Learning
+
+- Advanced TypeScript patterns
+- Microservices architecture
+- Cloud deployment strategies
+- Modern DevOps practices
+
+---
+
+## 📫 Let's Connect!
+
+- 💼 **Freelance Work:** [Fiverr Profile](https://es.fiverr.com/pablonietop)
+- 🔗 **Professional Network:** [LinkedIn](https://www.linkedin.com/in/pablo-nieto-perez-39a530292/)
+- 🎥 **Tech Content:** [TikTok @wibinweb](https://www.tiktok.com/search?q=wibinweb)
+- 📸 **Behind the Scenes:** [Instagram @wib.web](https://www.instagram.com/wib.web/)
+
+---
+
+## 🏆 Portfolio
+
+Check out my completed projects and client testimonials:
+**[View My Portfolio](https://www.fiverr.com/users/pablonietop/portfolio?roleIds=)**
+
+---
+
+<p align="center">
+  <i>💡 "Turning ideas into digital reality, one line of code at a time."</i>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile views" />
+</p>
