@@ -15,11 +15,12 @@
 
 ## 🚀 About Me
 
-**Software Developer** with over 3 years of experience specializing in responsive web development and full-stack solutions. I transform static designs into dynamic, functional experiences while implementing modern web technologies.
+**Frontend Developer** with over 3 years of experience specializing in responsive web development and modern user interfaces. I transform static designs into dynamic, functional experiences while working with databases and business systems.
 
 **Current Focus:**
-- 🎯 Full-stack web development
+- 🎯 Frontend web development
 - 🎨 UI/UX design and implementation
+- 🗄️ Database integration and management
 - 💼 ERP systems and business solutions
 - 🚀 Freelance development projects
 
@@ -36,10 +37,14 @@
   <img src="https://skillicons.dev/icons?i=jquery" />
 </p>
 
-### Backend Development
+### Database & Data Management
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,java,php,python" />
   <img src="https://skillicons.dev/icons?i=mysql,mongodb,supabase" />
+</p>
+
+### Programming Languages (Learning)
+<p>
+  <img src="https://skillicons.dev/icons?i=python,php,java" />
 </p>
 
 ### Cloud & Deployment
@@ -69,35 +74,40 @@
 
 ## 💼 What I Offer
 
-🌐 **Web Development**
+🌐 **Frontend Development**
 - Responsive web applications optimized for all devices
 - Modern UI/UX implementation using Figma designs
-- Full-stack development with React, Next.js, and Vue.js
+- Interactive web experiences with React, Next.js, and Vue.js
+- Custom JavaScript functionality and animations
 
-⚡ **Backend Solutions**
-- RESTful API development with Node.js
-- Database design and optimization (MySQL, MongoDB, Supabase)
-- Server-side logic and data management
+🗄️ **Database Integration**
+- Database design and structure planning
+- Frontend-database connectivity
+- Data visualization and management interfaces
+- Working with MySQL, MongoDB, and Supabase
 
 🏢 **Business Solutions**
 - Electronic invoicing modules for financial systems
-- ERP integration and customization
+- ERP integration and frontend interfaces
 - Microsoft Business Central development
+- Custom business application interfaces
 
 🎨 **Design & UX**
 - Converting static designs to interactive web experiences
 - Modern CSS animations and transitions
 - Cross-browser compatibility
+- Responsive design implementation
 
 ---
 
 ## 🌟 Experience Highlights
 
-- **3+ years** of professional web development
-- **Electronic Invoicing Systems** - Designed and implemented modules for financial transactions
-- **ERP Development** - Collaborated on Microsoft ERP platforms and Business Central
+- **3+ years** of professional frontend development
+- **Electronic Invoicing Systems** - Designed and implemented user interfaces for financial transactions
+- **ERP Development** - Created frontend interfaces for Microsoft ERP platforms and Business Central
+- **Database Integration** - Experience connecting frontend applications with various database systems
 - **Freelance Success** - Active on Fiverr with multiple completed projects
-- **Full-Stack Projects** - Experience with both frontend and backend technologies
+- **Learning Journey** - Expanding skills with Python and PHP for small projects
 
 ---
 
@@ -116,9 +126,10 @@
 ## 🎯 Current Learning
 
 - Advanced TypeScript patterns
-- Microservices architecture
-- Cloud deployment strategies
-- Modern DevOps practices
+- Python programming fundamentals
+- PHP for web development
+- Database optimization techniques
+- Modern frontend architecture
 
 ---
 
