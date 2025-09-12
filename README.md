@@ -13,13 +13,13 @@
 
 ---
 
-## 🚀 About Me
+##  About Me
 
 Full Stack Developer with 3+ years of experience building enterprise-grade web applications. Specialized in React/Next.js ecosystems with TypeScript, database architecture, and business system integration. Currently building scalable financial management systems and custom SaaS solutions.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend & Full Stack
 <p>
@@ -29,7 +29,7 @@ Full Stack Developer with 3+ years of experience building enterprise-grade web a
 
 ### Backend & Database
 <p>
-  <img src="https://skillicons.dev/icons?i=supabase,mysql,mongodb,python,php,java" />
+  <img src="https://skillicons.dev/icons?i=supabase,mysql" />
 </p>
 
 ### Tools & Deployment
@@ -46,7 +46,7 @@ Full Stack Developer with 3+ years of experience building enterprise-grade web a
 
 ---
 
-## 💼 Current Focus
+##  Current Focus
 
 **Full Stack Development**
 - Next.js applications with TypeScript and modern React patterns
@@ -66,22 +66,22 @@ Full Stack Developer with 3+ years of experience building enterprise-grade web a
 
 ---
 
-## 📈 Experience Highlights
+##  Experience Highlights
 
 - **3+ years** professional full stack development
-- **50+ delivered projects** across various industries
+- **150+ delivered projects** across various industries
 - **Financial Systems Expertise** - Electronic invoicing and payment processing
 - **ERP Development** - Microsoft Business Central and legacy system integration
 - **Database Architecture** - Complex relational designs and optimization
 
 ---
 
-## 📫 Let's Connect
+##  Let's Connect
 
-- 💼 **Freelance Work:** [Fiverr Profile](https://es.fiverr.com/pablonietop)
-- 🔗 **Professional Network:** [LinkedIn](https://www.linkedin.com/in/pablo-nieto-perez-39a530292/)
-- 🎥 **Tech Content:** [TikTok @wibinweb](https://www.tiktok.com/search?q=wibinweb)
-- 📸 **Behind the Scenes:** [Instagram @wib.web](https://www.instagram.com/wib.web/)
+-  **Freelance Work:** [Fiverr Profile](https://es.fiverr.com/pablonietop)
+-  **Professional Network:** [LinkedIn](https://www.linkedin.com/in/pablo-nieto-perez-39a530292/)
+-  **Tech Content:** [TikTok @wibinweb](https://www.tiktok.com/search?q=wibinweb)
+-  **Behind the Scenes:** [Instagram @wib.web](https://www.instagram.com/wib.web/)
 
 ---
 
