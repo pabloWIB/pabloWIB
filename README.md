@@ -1,6 +1,4 @@
-<p align="center">
-  <h1>Hello I'm Pablo</h1>
-</p>
+<h1 align="center">Hello, I'm Pablo</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Next.js+%26+React+Expert;TypeScript+Enthusiast;Problem+Solver" alt="Typing SVG" />
