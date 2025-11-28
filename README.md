@@ -36,7 +36,7 @@ Full Stack Developer with 4+ years building web applications. I work with Next.j
 
 ### Tools & Deployment
 <p>
-  <img src="https://skillicons.dev/icons?i=supabase,vercel,git,github,vscode,figma,ps,postman,notion,wordpress" />
+  <img src="https://skillicons.dev/icons?i=supabase,vercel,git,github,figma,ps,postman,wordpress" />
 </p>
 
 **Also working with:**
