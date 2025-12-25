@@ -64,8 +64,6 @@ Full Stack Developer with 4+ years building web applications. I work with Next.j
 
 **Hire me:** [Fiverr Profile](https://es.fiverr.com/pablonietop)
 
-**Network:** [Instagram @wib.web](https://www.instagram.com/wib.web/)
-
 ---
 
 <p align="center">
