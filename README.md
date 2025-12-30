@@ -63,11 +63,3 @@ Full Stack Developer with 4+ years building web applications. I work with Next.j
 **View my work:** [wib.digital](https://www.wib.digital/) 
 
 **Hire me:** [Fiverr Profile](https://es.fiverr.com/pablonietop)
-
----
-
-<p align="center">
-  <i>Building solutions that solve real business problems.</i>
-  <br/>
-  <a href="https://www.wib.digital/">Explore more at wib.digital</a>
-</p>
