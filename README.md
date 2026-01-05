@@ -12,11 +12,22 @@
 
 ---
 
+<p align="center">
+  <img 
+    src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/468498331/original/887d9cedab01dd47cc5823621dcb1fc5f5e3c2de/build-a-custom-internal-app-for-your-business.jpg" 
+    width="900" 
+    alt="Custom Internal Business Apps"
+  />
+</p>
+
+---
+
 ## About Me
 
 Full Stack Developer with 4+ years building web applications. I work with Next.js, React, TypeScript, and Supabase to create business management systems and custom solutions.
 
-**All repositories are private.** Check out my complete portfolio, case studies, and live projects at **[wib.digital](https://www.wib.digital/)**
+**All repositories are private.**  
+Check out my complete portfolio, case studies, and live projects at **[wib.digital](https://www.wib.digital/)**
 
 ---
 
@@ -60,6 +71,5 @@ Full Stack Developer with 4+ years building web applications. I work with Next.j
 
 ## Let's Connect
 
-**View my work:** [wib.digital](https://www.wib.digital/) 
-
+**View my work:** [wib.digital](https://www.wib.digital/)  
 **Hire me:** [Fiverr Profile](https://es.fiverr.com/pablonietop)
