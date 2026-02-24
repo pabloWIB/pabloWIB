@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://www.wib.digital/"><img src="https://img.shields.io/badge/WIB.DIGITAL-36BCF7?style=for-the-badge" alt="Portfolio"/></a>
   <a href="https://es.fiverr.com/pablonietop"><img src="https://img.shields.io/badge/fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Fiverr"/></a>
-  <a href="https://www.instagram.com/wib.web/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+  <a href="https://www.instagram.com/wib.digital/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
 </p>
 
 ---
