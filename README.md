@@ -65,7 +65,7 @@ Check out my complete portfolio, case studies, and live projects at **[wib.digit
 ## Experience
 
 - 4+ years full stack development
-- 127+ delivered projects
+- 161+ delivered projects
 
 ---
 
