@@ -13,26 +13,10 @@
 ---
 
 <p align="center">
-  <img 
-    src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/468498331/original/887d9cedab01dd47cc5823621dcb1fc5f5e3c2de/build-a-custom-internal-app-for-your-business.jpg" 
-    width="900" 
-    alt="Custom Internal Business Apps"
-  />
-</p>
-
-## Demo
-
-<p align="center">
   <a href="https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/v1/video-attachments/gig/videos/4c3434335e593730207ad90933fadc9c-1771292260448/GIG1">
     <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/468498331/original/887d9cedab01dd47cc5823621dcb1fc5f5e3c2de/build-a-custom-internal-app-for-your-business.jpg" width="900" />
   </a>
 </p>
-
-<video 
-  src="[https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/v1/video-attachments/gig/videos/4c3434335e593730207ad90933fadc9c-1771292260448/GIG1](https://fiverr-res.cloudinary.com/video/upload/t_fiverr_hd/v1/video-attachments/seller_intro_video/attachment/7d79caeeb2d9e9eed9aa14ac7d1317f6-1767046922118/INTRO)" 
-  controls 
-  width="900">
-</video>
 
 ---
 
