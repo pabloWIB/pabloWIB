@@ -33,7 +33,7 @@ Check out my complete portfolio, case studies, and live projects at **[wib.digit
 
 ### Frontend & Full Stack
 <p>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,sass,php,python" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,sass,php" />
 </p>
 
 ### Database
@@ -43,7 +43,7 @@ Check out my complete portfolio, case studies, and live projects at **[wib.digit
 
 ### Tools & Deployment
 <p>
-  <img src="https://skillicons.dev/icons?i=supabase,vercel,git,github,figma,ps,postman,wordpress" />
+  <img src="https://skillicons.dev/icons?i=supabase,vercel,git,github,docker,figma,ps,postman,wordpress" />
 </p>
 
 **Also working with:**
@@ -63,7 +63,7 @@ Check out my complete portfolio, case studies, and live projects at **[wib.digit
 ## Experience
 
 - 4+ years full stack development
-- 161+ delivered projects
+- 181+ delivered projects
 
 ---
 
