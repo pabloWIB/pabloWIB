@@ -33,7 +33,7 @@ Check out my complete portfolio, case studies, and live projects at **[wib.digit
 
 ### Frontend & Full Stack
 <p>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,sass" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,sass,php,python" />
 </p>
 
 ### Database
