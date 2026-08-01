@@ -5,7 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.wib.digital/"><img src="https://img.shields.io/badge/WIB.DIGITAL-36BCF7?style=for-the-badge" alt="Portfolio"/></a>
+  <a href="https://www.wib.digital/"><img src="https://img.shields.io/badge/WIB.DIGITAL-36BCF7?style=for-the-badge" alt="Portfolio"/></a>
+[![Hire me on Fiverr](https://img.shields.io/badge/Hire%20me%20on-Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/pablonietop)
   <a href="https://es.fiverr.com/pablonietop"><img src="https://img.shields.io/badge/fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Fiverr"/></a>
   <a href="https://www.instagram.com/wib.digital/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
 </p>
@@ -71,3 +72,20 @@ Check out my complete portfolio, case studies, and live projects at **[wib.digit
 
 **View my work:** [wib.digital](https://www.wib.digital/)  
 **Hire me:** [Fiverr Profile](https://es.fiverr.com/pablonietop)
+
+## Author
+
+**Pablo Nieto Pérez** — [wib.digital](https://wib.digital)
+GitHub: [@pabloWIB](https://github.com/pabloWIB)
+
+---
+
+## Hire me
+
+I build **custom internal tools, CRMs and dashboards** for small teams, and
+**conversion-focused websites** for businesses.
+
+- [Custom internal tool, CRM or dashboard](https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business) — from $45
+- [Conversion-focused website](https://www.fiverr.com/pablonietop/convert-your-landing-page-design-to-code) — from $80
+- [All my services on Fiverr](https://www.fiverr.com/pablonietop)
+- [wib.digital](https://wib.digital)
