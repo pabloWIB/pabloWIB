@@ -1,22 +1,18 @@
 <h1 align="center">Hello, I'm Pablo</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Next.js+%26+React+Expert;TypeScript+Enthusiast;Problem+Solver" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Next.js+%26+React+Expert;TypeScript+Enthusiast;Problem+Solver" alt="Full Stack Developer, Next.js and React, TypeScript" />
 </p>
 
 <p align="center">
-  <a href="https://www.wib.digital/"><img src="https://img.shields.io/badge/WIB.DIGITAL-36BCF7?style=for-the-badge" alt="Portfolio"/></a>
-
-[![Hire me on Fiverr](https://img.shields.io/badge/Hire%20me%20on-Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/pablonietop)
-  <a href="https://es.fiverr.com/pablonietop"><img src="https://img.shields.io/badge/fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Fiverr"/></a>
-  <a href="https://www.instagram.com/wib.digital/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+  <a href="https://www.wib.digital/"><img src="https://img.shields.io/badge/WIB.DIGITAL-36BCF7?style=for-the-badge" alt="Portfolio" /></a>
+  <a href="https://www.fiverr.com/pablonietop"><img src="https://img.shields.io/badge/Hire%20me%20on-Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Fiverr" /></a>
+  <a href="https://www.instagram.com/wib.digital/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 </p>
 
----
-
 <p align="center">
-  <a href="https://es.fiverr.com/pablonietop/>
-    <img src="https://fiverr-res.cloudinary.com/videos/so_68.305716,t_main1,q_auto,f_auto/v1/video-attachments/gig/videos/51b18a1d0ca28780a74f64691c368327-1785737760069/Screen%20Recording%202026-08-03%20011529/build-a-custom-internal-app-for-your-business.png" width="900" />
+  <a href="https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business">
+    <img src="./assets/cover.png" width="900" alt="Build a custom internal app for your business" />
   </a>
 </p>
 
@@ -26,31 +22,31 @@
 
 Full Stack Developer with 4+ years building web applications. I work with Next.js, React, TypeScript, and Supabase to create business management systems and custom solutions.
 
-**All repositories are private.**  
-Check out my complete portfolio, case studies, and live projects at **[wib.digital](https://www.wib.digital/)**
+**All repositories are private.** Portfolio, case studies, and live projects at **[wib.digital](https://www.wib.digital/)**.
 
 ---
 
 ## Tech Stack
 
-### Frontend & Full Stack
+**Frontend & Full Stack**
+
 <p>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,sass,php" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,sass,php" alt="Next.js, React, TypeScript, Tailwind, Sass, PHP" />
 </p>
 
-### Database
+**Database**
+
 <p>
-  <img src="https://skillicons.dev/icons?i=mysql,postgresql" />
+  <img src="https://skillicons.dev/icons?i=mysql,postgresql" alt="MySQL, PostgreSQL" />
 </p>
 
-### Tools & Deployment
+**Tools & Deployment**
+
 <p>
-  <img src="https://skillicons.dev/icons?i=supabase,vercel,git,github,docker,figma,ps,postman,wordpress" />
+  <img src="https://skillicons.dev/icons?i=supabase,vercel,git,github,docker,figma,ps,postman,wordpress" alt="Supabase, Vercel, Git, GitHub, Docker, Figma, Photoshop, Postman, WordPress" />
 </p>
 
-**Also working with:**
-- C/AL & Microsoft Business Central
-- ERP Systems & Report Builder
+Also working with C/AL & Microsoft Business Central, ERP systems, and Report Builder.
 
 ---
 
@@ -60,33 +56,18 @@ Check out my complete portfolio, case studies, and live projects at **[wib.digit
 - Design databases and APIs with PostgreSQL
 - Create financial management systems (loans, inventory, analytics)
 
----
-
-## Experience
-
-- 4+ years full stack development
-- 191+ delivered projects
+4+ years full stack development · 191+ delivered projects
 
 ---
 
-## Let's Connect
+## Work With Me
 
-**View my work:** [wib.digital](https://www.wib.digital/)  
-**Hire me:** [Fiverr Profile](https://es.fiverr.com/pablonietop)
+I build **custom internal tools, CRMs and dashboards** for small teams, and **conversion-focused websites** for businesses.
 
-## Author
+| Service | From |
+|---|---|
+| [Custom internal tool, CRM or dashboard](https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business) | $45 |
+| [Conversion-focused website](https://www.fiverr.com/pablonietop/convert-your-landing-page-design-to-code) | $80 |
+| [All services](https://www.fiverr.com/pablonietop) | — |
 
-**Pablo Nieto Pérez** — [wib.digital](https://wib.digital)
-GitHub: [@pabloWIB](https://github.com/pabloWIB)
-
----
-
-## Hire me
-
-I build **custom internal tools, CRMs and dashboards** for small teams, and
-**conversion-focused websites** for businesses.
-
-- [Custom internal tool, CRM or dashboard](https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business) — from $45
-- [Conversion-focused website](https://www.fiverr.com/pablonietop/convert-your-landing-page-design-to-code) — from $80
-- [All my services on Fiverr](https://www.fiverr.com/pablonietop)
-- [wib.digital](https://wib.digital)
+**Pablo Nieto Pérez** · [wib.digital](https://www.wib.digital/) · [@pabloWIB](https://github.com/pabloWIB)
