@@ -1,0 +1,653 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pablo Nieto Pérez — Full-stack developer &amp; designer</title>
+  <meta name="description" content="Pablo Nieto Pérez builds web apps, mobile apps and websites from Manizales, Colombia. Next.js, Supabase, React Native, WordPress. 180+ five-star reviews on Fiverr.">
+  <link rel="canonical" href="https://www.wib.digital/">
+  <link rel="icon" href="https://slite.wib.digital/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="https://slite.wib.digital/favicon.svg">
+  <link rel="icon" type="image/png" href="https://slite.wib.digital/favicon-96x96.png" sizes="96x96">
+  <link rel="apple-touch-icon" href="https://slite.wib.digital/apple-touch-icon.png">
+  <meta name="theme-color" content="#0B0B0B">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+
+  <style>
+    :root {
+      --ink: #0B0B0B;
+      --paper: #F4F4F1;
+      --smoke: #7C7C79;
+      --line: rgba(11, 11, 11, .16);
+      --line-inv: rgba(244, 244, 241, .22);
+
+      --display: "Bricolage Grotesque", system-ui, sans-serif;
+      --body: "Instrument Sans", system-ui, sans-serif;
+      --mono: "JetBrains Mono", ui-monospace, monospace;
+
+      --gutter: clamp(1.25rem, 5vw, 5rem);
+      --stack-top: 5.5rem;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--ink);
+      color: var(--ink);
+      font-family: var(--body);
+      font-size: clamp(1rem, .95rem + .25vw, 1.125rem);
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: inherit; }
+
+    img { max-width: 100%; display: block; }
+
+    ::selection { background: var(--ink); color: var(--paper); }
+
+    .skip {
+      position: absolute; left: -9999px; top: 0;
+      background: var(--paper); color: var(--ink);
+      padding: .75rem 1rem; z-index: 99;
+    }
+    .skip:focus { left: 0; }
+
+    :focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 4px;
+    }
+
+    .label {
+      font-family: var(--mono);
+      font-size: .7rem;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+
+
+    .hero {
+      position: sticky;
+      top: 0;
+      height: 100svh;
+      min-height: 34rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: clamp(1.25rem, 3vw, 2.25rem) var(--gutter) clamp(1.5rem, 3vw, 2.5rem);
+      background: var(--ink);
+      color: var(--paper);
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: repeating-linear-gradient(to right, var(--line-inv) 0 1px, transparent 1px 25%);
+      opacity: .5;
+      pointer-events: none;
+    }
+
+    .hero > * { position: relative; }
+
+    .hero__top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+      color: rgba(244, 244, 241, .72);
+    }
+
+    .status { display: inline-flex; align-items: center; gap: .5rem; }
+
+    .status::before {
+      content: "";
+      width: .5rem; height: .5rem;
+      border-radius: 50%;
+      background: var(--paper);
+      animation: pulse 2.4s ease-in-out infinite;
+    }
+
+    @keyframes pulse { 50% { opacity: .25; } }
+
+    .hero__name {
+      margin: 0;
+      font-family: var(--display);
+      font-weight: 800;
+      line-height: .82;
+      letter-spacing: -.04em;
+      text-transform: uppercase;
+      font-size: clamp(4.5rem, 21vw, 19rem);
+    }
+
+    .hero__name span {
+      display: block;
+      color: transparent;
+      -webkit-text-stroke: 1.5px var(--paper);
+      font-size: .42em;
+      letter-spacing: -.02em;
+      padding-top: .12em;
+    }
+
+    .hero__meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem 1.75rem;
+      margin-top: clamp(1.25rem, 3vw, 2rem);
+      padding-top: 1rem;
+      border-top: 1px solid var(--line-inv);
+      color: rgba(244, 244, 241, .72);
+    }
+
+    .hero__cue { color: rgba(244, 244, 241, .5); }
+
+
+    .slab {
+      position: relative;
+      z-index: 1;
+      background: var(--paper);
+      padding: clamp(3.5rem, 9vw, 8rem) var(--gutter);
+      border-top: 1px solid var(--line);
+    }
+
+    .slab--ink {
+      background: var(--ink);
+      color: var(--paper);
+      border-top-color: var(--line-inv);
+    }
+
+    .wrap { max-width: 76rem; margin: 0 auto; }
+
+    .lede {
+      font-family: var(--display);
+      font-weight: 400;
+      font-size: clamp(1.6rem, 1rem + 2.6vw, 3.4rem);
+      line-height: 1.12;
+      letter-spacing: -.025em;
+      margin: 1.5rem 0 0;
+      max-width: 24ch;
+    }
+
+    .lede b { font-weight: 800; }
+
+    .note {
+      max-width: 46ch;
+      margin: 2rem 0 0;
+      color: #333;
+    }
+
+    .facts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+      gap: 1px;
+      margin-top: clamp(2.5rem, 6vw, 4.5rem);
+      background: var(--line);
+      border: 1px solid var(--line);
+    }
+
+    .fact { background: var(--paper); padding: 1.5rem 1.25rem; }
+
+    .fact dt {
+      font-family: var(--display);
+      font-weight: 800;
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      line-height: 1;
+      letter-spacing: -.03em;
+    }
+
+    .fact dd {
+      margin: .65rem 0 0;
+      color: var(--smoke);
+      font-family: var(--mono);
+      font-size: .7rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+
+
+    .work { background: var(--ink); position: relative; z-index: 1; }
+
+    .work__head {
+      padding: clamp(3.5rem, 8vw, 7rem) var(--gutter) clamp(1.5rem, 3vw, 2.5rem);
+      color: var(--paper);
+      border-top: 1px solid var(--line-inv);
+    }
+
+    .work__title {
+      font-family: var(--display);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: -.035em;
+      line-height: .9;
+      font-size: clamp(2.75rem, 9vw, 7rem);
+      margin: .75rem 0 0;
+    }
+
+    .deck { padding: 0 var(--gutter) clamp(4rem, 10vw, 9rem); }
+
+    .card {
+      position: sticky;
+      top: calc(var(--stack-top) + var(--i) * 1.25rem);
+      background: var(--paper);
+      color: var(--ink);
+      border: 1px solid var(--ink);
+      padding: clamp(1.75rem, 4vw, 3.25rem);
+      margin-bottom: 1.25rem;
+      min-height: min(30rem, 68svh);
+      display: grid;
+      grid-template-columns: 1fr;
+      align-content: space-between;
+      gap: 2rem;
+      box-shadow: 0 -1px 0 var(--paper);
+    }
+
+    .card:nth-child(even) {
+      background: var(--ink);
+      color: var(--paper);
+      border-color: var(--paper);
+    }
+
+    .card__top {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      align-items: baseline;
+      border-bottom: 1px solid currentColor;
+      padding-bottom: 1rem;
+      opacity: .999;
+    }
+
+    .card__name {
+      font-family: var(--display);
+      font-weight: 800;
+      font-size: clamp(1.9rem, 1rem + 3.4vw, 4rem);
+      line-height: .95;
+      letter-spacing: -.035em;
+      margin: 0;
+      max-width: 16ch;
+    }
+
+    .card__desc {
+      margin: 1rem 0 0;
+      max-width: 52ch;
+      font-size: clamp(1rem, .95rem + .3vw, 1.2rem);
+    }
+
+    .card__tags {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: .5rem;
+      margin: 0;
+      padding: 0;
+    }
+
+    .card__tags li {
+      font-family: var(--mono);
+      font-size: .7rem;
+      letter-spacing: .08em;
+      padding: .4rem .7rem;
+      border: 1px solid currentColor;
+      opacity: .75;
+    }
+
+
+    .cols {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+      gap: 1px;
+      margin-top: clamp(2.5rem, 6vw, 4rem);
+      background: var(--line);
+      border-block: 1px solid var(--line);
+    }
+
+    .col { background: var(--paper); padding: 2rem 1.5rem; }
+
+    .col h3 {
+      font-family: var(--display);
+      font-weight: 800;
+      font-size: 1.35rem;
+      letter-spacing: -.02em;
+      margin: .9rem 0 1rem;
+    }
+
+    .col ul {
+      margin: 0; padding: 0; list-style: none;
+      font-family: var(--mono);
+      font-size: .82rem;
+      color: #3a3a3a;
+    }
+
+    .col li { padding: .35rem 0; border-top: 1px dotted var(--line); }
+    .col li:first-child { border-top: 0; }
+
+
+    .contact__title {
+      font-family: var(--display);
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: clamp(2.5rem, 10vw, 8rem);
+      line-height: .85;
+      letter-spacing: -.04em;
+      margin: 1rem 0 0;
+    }
+
+    .links {
+      list-style: none;
+      margin: clamp(2.5rem, 6vw, 4rem) 0 0;
+      padding: 0;
+      border-top: 1px solid var(--line-inv);
+    }
+
+    .links a {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+      padding: 1.4rem .25rem;
+      border-bottom: 1px solid var(--line-inv);
+      text-decoration: none;
+      font-family: var(--display);
+      font-weight: 700;
+      font-size: clamp(1.25rem, 1rem + 1.6vw, 2.25rem);
+      letter-spacing: -.02em;
+      transition: padding .35s ease, background .35s ease, color .35s ease;
+    }
+
+    .links a:hover,
+    .links a:focus-visible {
+      background: var(--paper);
+      color: var(--ink);
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+    }
+
+    .links span {
+      font-family: var(--mono);
+      font-size: .72rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      opacity: .7;
+      white-space: nowrap;
+    }
+
+    .foot {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-top: clamp(3rem, 8vw, 6rem);
+      padding-top: 1.25rem;
+      border-top: 1px solid var(--line-inv);
+      color: rgba(244, 244, 241, .6);
+    }
+
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(1.25rem);
+      transition: opacity .7s ease, transform .7s cubic-bezier(.2, .7, .3, 1);
+    }
+
+    .reveal.is-in { opacity: 1; transform: none; }
+
+    @media (max-width: 48rem) {
+      .card { min-height: auto; top: calc(4rem + var(--i) * .75rem); }
+      .hero__meta { gap: .35rem 1rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .reveal { opacity: 1; transform: none; transition: none; }
+      .status::before { animation: none; }
+      .links a { transition: none; }
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+
+  <header class="hero">
+    <div class="hero__top">
+      <p class="label" style="margin:0">wib.digital — studio of one</p>
+      <p class="label status" style="margin:0">Taking work for August</p>
+    </div>
+
+    <div>
+      <h1 class="hero__name">Pablo<span>Nieto Pérez</span></h1>
+      <div class="hero__meta label">
+        <span>Full-stack developer</span>
+        <span>Designer</span>
+        <span>Manizales, Colombia</span>
+        <span>UTC−5</span>
+      </div>
+    </div>
+
+    <p class="label hero__cue" style="margin:0">Scroll ↓</p>
+  </header>
+
+  <main id="main">
+    <section class="slab">
+      <div class="wrap">
+        <p class="label" style="color:var(--smoke);margin:0">What I do</p>
+        <p class="lede reveal">I build the thing you actually need — <b>web apps, mobile apps and sites</b> — then I stay to keep it running.</p>
+        <p class="note reveal">Most projects start as a rough idea in a chat window. I turn it into scoped modules, ship one at a time, and send you something you can click at the end of each. No agency layers, no account manager, no waiting a week for a reply.</p>
+
+        <dl class="facts reveal">
+          <div class="fact">
+            <dt>180+</dt>
+            <dd>Five-star reviews</dd>
+          </div>
+          <div class="fact">
+            <dt>5.0</dt>
+            <dd>Fiverr rating</dd>
+          </div>
+          <div class="fact">
+            <dt>3</dt>
+            <dd>Continents served</dd>
+          </div>
+          <div class="fact">
+            <dt>24h</dt>
+            <dd>Typical reply time</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="work" aria-labelledby="work-title">
+      <div class="work__head">
+        <p class="label" style="margin:0;opacity:.7">Selected work</p>
+        <h2 class="work__title" id="work-title">Built &amp;<br>shipped</h2>
+      </div>
+
+      <div class="deck">
+        <article class="card" style="--i:0">
+          <div>
+            <div class="card__top">
+              <p class="label" style="margin:0">Operations platform</p>
+              <p class="label" style="margin:0">United States</p>
+            </div>
+            <h3 class="card__name">Yellow Creek OPS</h3>
+            <p class="card__desc">An internal platform for a field-services company: scheduling, job costing, a subcontractor portal with bids and e-signatures, card payments, and a companion field app that clocks crews in by GPS.</p>
+          </div>
+          <ul class="card__tags">
+            <li>Next.js</li>
+            <li>Supabase</li>
+            <li>React Native</li>
+            <li>Square</li>
+          </ul>
+        </article>
+
+        <article class="card" style="--i:1">
+          <div>
+            <div class="card__top">
+              <p class="label" style="margin:0">Co-founder</p>
+              <p class="label" style="margin:0">Colombia</p>
+            </div>
+            <h3 class="card__name">Movira</h3>
+            <p class="card__desc">A freight marketplace that connects businesses with verified carriers. Shipper web app, admin panel, a driver app on Google Play, and a pricing engine that quotes a load in seconds.</p>
+          </div>
+          <ul class="card__tags">
+            <li>Next.js</li>
+            <li>FastAPI</li>
+            <li>Expo</li>
+            <li>Play Store</li>
+          </ul>
+        </article>
+
+        <article class="card" style="--i:2">
+          <div>
+            <div class="card__top">
+              <p class="label" style="margin:0">Subscription commerce</p>
+              <p class="label" style="margin:0">Netherlands</p>
+            </div>
+            <h3 class="card__name">Daily Motion</h3>
+            <p class="card__desc">A Dutch subscription store where customers pick a plan and get a delivery on schedule. Checkout, recurring billing, and a customer area to pause, swap or cancel without emailing support.</p>
+          </div>
+          <ul class="card__tags">
+            <li>Next.js</li>
+            <li>Stripe</li>
+            <li>Supabase</li>
+          </ul>
+        </article>
+
+        <article class="card" style="--i:3">
+          <div>
+            <div class="card__top">
+              <p class="label" style="margin:0">Law firm site</p>
+              <p class="label" style="margin:0">Miami, FL</p>
+            </div>
+            <h3 class="card__name">Mamone Walker</h3>
+            <p class="card__desc">An 89-page site rebuilt and kept clean: full link audit, attorney profiles restructured with redirects that held their rankings, and every page published in English, Spanish and Chinese.</p>
+          </div>
+          <ul class="card__tags">
+            <li>WordPress</li>
+            <li>SEO</li>
+            <li>Trilingual</li>
+          </ul>
+        </article>
+
+        <article class="card" style="--i:4">
+          <div>
+            <div class="card__top">
+              <p class="label" style="margin:0">Bilingual site</p>
+              <p class="label" style="margin:0">Miami, FL</p>
+            </div>
+            <h3 class="card__name">National Funeral Homes</h3>
+            <p class="card__desc">A hand-built static site for a family business open 24 hours: three locations, English and Spanish versions with proper hreflang, structured data, and a phone number that is never more than a thumb away.</p>
+          </div>
+          <ul class="card__tags">
+            <li>Static HTML</li>
+            <li>Vercel</li>
+            <li>Schema.org</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="slab" aria-labelledby="cap-title">
+      <div class="wrap">
+        <p class="label" style="color:var(--smoke);margin:0">How I can help</p>
+        <h2 class="lede reveal" id="cap-title" style="max-width:20ch">Pick the tool that fits the job, not the other way around.</h2>
+
+        <div class="cols reveal">
+          <div class="col">
+            <p class="label" style="color:var(--smoke);margin:0">01</p>
+            <h3>Custom apps</h3>
+            <ul>
+              <li>Next.js</li>
+              <li>TypeScript</li>
+              <li>Tailwind CSS</li>
+              <li>Supabase / Postgres</li>
+              <li>Vercel</li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="label" style="color:var(--smoke);margin:0">02</p>
+            <h3>Mobile</h3>
+            <ul>
+              <li>React Native</li>
+              <li>Expo &amp; EAS</li>
+              <li>Offline &amp; GPS</li>
+              <li>Store releases</li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="label" style="color:var(--smoke);margin:0">03</p>
+            <h3>Websites</h3>
+            <ul>
+              <li>WordPress</li>
+              <li>Elementor</li>
+              <li>Static builds</li>
+              <li>Technical SEO</li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="label" style="color:var(--smoke);margin:0">04</p>
+            <h3>Payments &amp; automation</h3>
+            <ul>
+              <li>Stripe</li>
+              <li>Square</li>
+              <li>Integrations</li>
+              <li>AI workflows</li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="note reveal">Work is priced and delivered in modules. You approve one before the next one starts, so you always know what you paid for and what comes next.</p>
+      </div>
+    </section>
+
+    <section class="slab slab--ink" aria-labelledby="contact-title">
+      <div class="wrap">
+        <p class="label" style="margin:0;opacity:.7">Start a project</p>
+        <h2 class="contact__title" id="contact-title">Send me<br>the idea</h2>
+        <p class="note reveal" style="color:rgba(244,244,241,.75)">A message with what you want to build is enough. I'll tell you if I'm the right fit, what it takes, and what it costs — usually the same day.</p>
+
+        <ul class="links">
+          <li><a href="https://wa.me/573225995271" rel="noopener" target="_blank">WhatsApp <span>Fastest reply</span></a></li>
+          <li><a href="https://www.fiverr.com/pablonietop" rel="noopener" target="_blank">Fiverr <span>180+ reviews</span></a></li>
+          <li><a href="https://www.linkedin.com/in/pablo-nieto-perez-39a530292" rel="noopener" target="_blank">LinkedIn <span>Profile</span></a></li>
+          <li><a href="https://wib.digital" rel="noopener" target="_blank">wib.digital <span>Studio</span></a></li>
+        </ul>
+
+        <div class="foot label">
+          <p style="margin:0">Pablo Nieto Pérez — Manizales, Caldas, Colombia</p>
+          <p style="margin:0">&copy; <span id="year">2026</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const items = document.querySelectorAll('.reveal');
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-in');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15, rootMargin: '0px 0px -8% 0px' });
+      items.forEach((el) => io.observe(el));
+    } else {
+      items.forEach((el) => el.classList.add('is-in'));
+    }
+  </script>
+</body>
+
+</html>
