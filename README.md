@@ -56,7 +56,7 @@ Also working with C/AL & Microsoft Business Central, ERP systems, and Report Bui
 - Design databases and APIs with PostgreSQL
 - Create financial management systems (loans, inventory, analytics)
 
-4+ years full stack development · 191+ delivered projects
+4+ years full stack development · 194+ delivered projects
 
 ---
 
