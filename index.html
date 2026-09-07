@@ -300,6 +300,49 @@
       opacity: .75;
     }
 
+    .card__foot {
+      display: flex;
+      flex-wrap: wrap;
+      min-width: 0;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem 1.5rem;
+    }
+
+    .card__visit {
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      /* The domain label is a long unbroken string in a monospace face. Without
+         these it cannot shrink and pushes the whole page wider at 320px. */
+      max-width: 100%;
+      min-width: 0;
+      gap: .6rem;
+      padding: .55rem .9rem;
+      border: 1px solid currentColor;
+      text-decoration: none;
+      font-family: var(--display);
+      font-weight: 800;
+      font-size: .95rem;
+      letter-spacing: -.01em;
+      transition: background .3s ease, color .3s ease;
+    }
+
+    .card__visit span {
+      overflow-wrap: anywhere;
+      font-family: var(--mono);
+      font-weight: 400;
+      font-size: .72rem;
+      letter-spacing: .06em;
+      opacity: .7;
+    }
+
+    .card:nth-child(odd) .card__visit:hover,
+    .card:nth-child(odd) .card__visit:focus-visible { background: var(--ink); color: var(--paper); }
+
+    .card:nth-child(even) .card__visit:hover,
+    .card:nth-child(even) .card__visit:focus-visible { background: var(--paper); color: var(--ink); }
+
     .roster__title {
       font-family: var(--display);
       font-weight: 800;
@@ -637,12 +680,15 @@
             <h3 class="card__name">Yellow Creek OPS</h3>
             <p class="card__desc">An internal platform for a field-services company: scheduling, job costing, a subcontractor portal with bids and e-signatures, card payments, and a companion field app that clocks crews in by GPS.</p>
           </div>
-          <ul class="card__tags">
+          <div class="card__foot">
+            <ul class="card__tags">
             <li>Next.js</li>
             <li>Supabase</li>
             <li>React Native</li>
             <li>Square</li>
           </ul>
+            <a class="card__visit" href="https://app.yellowcreekenterprises.com/" rel="noopener" target="_blank">Visit <span>app.yellowcreekenterprises.com</span></a>
+          </div>
         </article>
 
         <article class="card" style="--i:1">
@@ -654,12 +700,15 @@
             <h3 class="card__name">Movira</h3>
             <p class="card__desc">A freight marketplace that connects businesses with verified carriers. Shipper web app, admin panel, a driver app on Google Play, and a pricing engine that quotes a load in seconds.</p>
           </div>
-          <ul class="card__tags">
+          <div class="card__foot">
+            <ul class="card__tags">
             <li>Next.js</li>
             <li>FastAPI</li>
             <li>Expo</li>
             <li>Play Store</li>
           </ul>
+            <a class="card__visit" href="https://www.movira.com.co/" rel="noopener" target="_blank">Visit <span>movira.com.co</span></a>
+          </div>
         </article>
 
         <article class="card" style="--i:2">
@@ -671,11 +720,14 @@
             <h3 class="card__name">Daily Motion</h3>
             <p class="card__desc">A Dutch subscription store where customers pick a plan and get a delivery on schedule. Checkout, recurring billing, and a customer area to pause, swap or cancel without emailing support.</p>
           </div>
-          <ul class="card__tags">
+          <div class="card__foot">
+            <ul class="card__tags">
             <li>Next.js</li>
             <li>Stripe</li>
             <li>Supabase</li>
           </ul>
+            <a class="card__visit" href="https://app.dailymotionunderwear.com/" rel="noopener" target="_blank">Visit <span>app.dailymotionunderwear.com</span></a>
+          </div>
         </article>
 
         <article class="card" style="--i:3">
@@ -687,11 +739,14 @@
             <h3 class="card__name">Mamone Walker</h3>
             <p class="card__desc">An 89-page site rebuilt and kept clean: full link audit, attorney profiles restructured with redirects that held their rankings, and every page published in English, Spanish and Chinese.</p>
           </div>
-          <ul class="card__tags">
+          <div class="card__foot">
+            <ul class="card__tags">
             <li>WordPress</li>
             <li>SEO</li>
             <li>Trilingual</li>
           </ul>
+            <a class="card__visit" href="https://mamonewalker.com/" rel="noopener" target="_blank">Visit <span>mamonewalker.com</span></a>
+          </div>
         </article>
 
         <article class="card" style="--i:4">
@@ -703,11 +758,14 @@
             <h3 class="card__name">National Funeral Homes</h3>
             <p class="card__desc">A hand-built static site for a family business open 24 hours: three locations, English and Spanish versions with proper hreflang, structured data, and a phone number that is never more than a thumb away.</p>
           </div>
-          <ul class="card__tags">
+          <div class="card__foot">
+            <ul class="card__tags">
             <li>Static HTML</li>
             <li>Vercel</li>
             <li>Schema.org</li>
           </ul>
+            <a class="card__visit" href="https://funeralhomesmiamifl.com/" rel="noopener" target="_blank">Visit <span>funeralhomesmiamifl.com</span></a>
+          </div>
         </article>
       </div>
     </section>
@@ -735,10 +793,10 @@
             <span>Funeral services &middot; Miami, FL</span>
             <em>funeralhomesmiamifl.com</em>
           </a></li>
-          <li><a href="https://dmunderwear.com/" rel="noopener" target="_blank">
+          <li><a href="https://app.dailymotionunderwear.com/" rel="noopener" target="_blank">
             <b>DM Underwear</b>
             <span>Subscription commerce &middot; Netherlands</span>
-            <em>dmunderwear.com</em>
+            <em>app.dailymotionunderwear.com</em>
           </a></li>
           <li><a href="https://litseacc.edu.mx/" rel="noopener" target="_blank">
             <b>Litsea</b>
@@ -755,15 +813,15 @@
             <span>Local news &middot; Ketchikan, AK</span>
             <em>thedailyketch.com</em>
           </a></li>
-          <li><a href="https://laserforge.co/" rel="noopener" target="_blank">
-            <b>The Laser Forge</b>
-            <span>Laser engraving &middot; San Diego, CA</span>
-            <em>laserforge.co</em>
+          <li><a href="https://laserforge-astv8lt8qz.live-website.com/" rel="noopener" target="_blank">
+            <b>LaserForge</b>
+            <span>Laser cutting &amp; CNC bending</span>
+            <em>laserforge.live-website.com</em>
           </a></li>
-          <li><a href="https://gospelbillboardministries.com/" rel="noopener" target="_blank">
+          <li><a href="https://app.gospelbillboardministries.com/" rel="noopener" target="_blank">
             <b>Gospel Billboard Ministries</b>
             <span>Ministry</span>
-            <em>gospelbillboardministries.com</em>
+            <em>app.gospelbillboardministries.com</em>
           </a></li>
           <li><a href="https://glampingreservadelruiz.website/" rel="noopener" target="_blank">
             <b>Glamping Reserva del Ruiz</b>
@@ -779,11 +837,6 @@
             <b>Unisoft</b>
             <span>Adult care products &middot; Chile</span>
             <em>unisoftchile.cl</em>
-          </a></li>
-          <li><a href="https://servigreen.cl/" rel="noopener" target="_blank">
-            <b>Servigreen</b>
-            <span>Sustainable landscaping &middot; Chile</span>
-            <em>servigreen.cl</em>
           </a></li>
           <li><a href="https://pavilalin.es/" rel="noopener" target="_blank">
             <b>Pavilal&iacute;n S.L.</b>
@@ -834,6 +887,36 @@
             <b>Velnox</b>
             <span>AI growth systems</span>
             <em>velnox.ai</em>
+          </a></li>
+          <li><a href="https://belymarinmobiliaria.com/" rel="noopener" target="_blank">
+            <b>BelyMar</b>
+            <span>Real estate &middot; Carballo, ES</span>
+            <em>belymarinmobiliaria.com</em>
+          </a></li>
+          <li><a href="https://nexacaremd.com/" rel="noopener" target="_blank">
+            <b>NexaCareMD</b>
+            <span>Metabolic &amp; weight-loss care</span>
+            <em>nexacaremd.com</em>
+          </a></li>
+          <li><a href="https://www.rentalg.es/" rel="noopener" target="_blank">
+            <b>RentalG</b>
+            <span>Car rental &middot; Lleida, ES</span>
+            <em>rentalg.es</em>
+          </a></li>
+          <li><a href="https://glsolutionsgroup.com/" rel="noopener" target="_blank">
+            <b>GL Solutions Services</b>
+            <span>Business consulting</span>
+            <em>glsolutionsgroup.com</em>
+          </a></li>
+          <li><a href="https://fullove66.com/" rel="noopener" target="_blank">
+            <b>Full Love</b>
+            <span>Fashion creator &middot; Sitges, ES</span>
+            <em>fullove66.com</em>
+          </a></li>
+          <li><a href="https://bibleonyourwrist.site/" rel="noopener" target="_blank">
+            <b>Bible Verse Daily</b>
+            <span>Daily verses</span>
+            <em>bibleonyourwrist.site</em>
           </a></li>
         </ul>
       </div>
