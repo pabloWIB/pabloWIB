@@ -7,10 +7,9 @@
   <title>Pablo Nieto Pérez — Full-stack developer &amp; designer</title>
   <meta name="description" content="Pablo Nieto Pérez builds web apps, mobile apps and websites from Manizales, Colombia. Next.js, Supabase, React Native, WordPress. 180+ five-star reviews on Fiverr.">
   <link rel="canonical" href="https://www.wib.digital/">
-  <link rel="icon" href="https://slite.wib.digital/favicon.ico" sizes="any">
-  <link rel="icon" type="image/svg+xml" href="https://slite.wib.digital/favicon.svg">
-  <link rel="icon" type="image/png" href="https://slite.wib.digital/favicon-96x96.png" sizes="96x96">
-  <link rel="apple-touch-icon" href="https://slite.wib.digital/apple-touch-icon.png">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <meta name="theme-color" content="#0B0B0B">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -301,6 +300,62 @@
       opacity: .75;
     }
 
+    .roster__title {
+      font-family: var(--display);
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: clamp(2.25rem, 6vw, 4.5rem);
+      line-height: .9;
+      letter-spacing: -.035em;
+      margin: 1rem 0 0;
+    }
+
+    .roster {
+      list-style: none;
+      margin: clamp(2.5rem, 6vw, 4rem) 0 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+      gap: 1px;
+      background: var(--line-inv);
+      border: 1px solid var(--line-inv);
+    }
+
+    .roster li { background: var(--ink); }
+
+    .roster a {
+      display: block;
+      padding: 1.15rem 1.25rem;
+      text-decoration: none;
+      transition: background .3s ease, color .3s ease;
+    }
+
+    .roster a:hover,
+    .roster a:focus-visible { background: var(--paper); color: var(--ink); }
+
+    .roster b {
+      display: block;
+      font-family: var(--display);
+      font-weight: 800;
+      font-size: 1.05rem;
+      letter-spacing: -.02em;
+      line-height: 1.15;
+    }
+
+    .roster span,
+    .roster em {
+      display: block;
+      font-family: var(--mono);
+      font-size: .68rem;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      font-style: normal;
+    }
+
+    .roster span { margin-top: .5rem; opacity: .6; }
+    .roster em { margin-top: .2rem; opacity: .85; text-transform: none; letter-spacing: .04em; }
+
+
 
     .cols {
       display: grid;
@@ -421,7 +476,7 @@
   <header class="hero">
     <div class="hero__top">
       <p class="label" style="margin:0">wib.digital — studio of one</p>
-      <p class="label status" style="margin:0">Taking work for August</p>
+      <p class="label status" style="margin:0">Taking work for <span id="month">September</span></p>
     </div>
 
     <div>
@@ -556,6 +611,133 @@
       </div>
     </section>
 
+
+    <section class="slab slab--ink" aria-labelledby="clients-title">
+      <div class="wrap">
+        <p class="label" style="margin:0;opacity:.7">Clients</p>
+        <h2 class="roster__title" id="clients-title">Live on their<br>own domain</h2>
+        <p class="note reveal" style="color:rgba(244,244,241,.75)">Every site and platform below is in production today, under the client&rsquo;s own name. 23 of them, across three continents.</p>
+
+        <ul class="roster reveal">
+          <li><a href="https://yellowcreekenterprises.com/" rel="noopener" target="_blank">
+            <b>Yellow Creek</b>
+            <span>Roofing &amp; remodeling &middot; New Bern, NC</span>
+            <em>yellowcreekenterprises.com</em>
+          </a></li>
+          <li><a href="https://mamonewalker.com/" rel="noopener" target="_blank">
+            <b>Mamone Walker</b>
+            <span>Litigation &amp; business law &middot; Miami, FL</span>
+            <em>mamonewalker.com</em>
+          </a></li>
+          <li><a href="https://funeralhomesmiamifl.com/" rel="noopener" target="_blank">
+            <b>National Funeral Homes</b>
+            <span>Funeral services &middot; Miami, FL</span>
+            <em>funeralhomesmiamifl.com</em>
+          </a></li>
+          <li><a href="https://dmunderwear.com/" rel="noopener" target="_blank">
+            <b>DM Underwear</b>
+            <span>Subscription commerce &middot; Netherlands</span>
+            <em>dmunderwear.com</em>
+          </a></li>
+          <li><a href="https://litseacc.edu.mx/" rel="noopener" target="_blank">
+            <b>Litsea</b>
+            <span>Beauty school &middot; Playa del Carmen, MX</span>
+            <em>litseacc.edu.mx</em>
+          </a></li>
+          <li><a href="https://psmcnephrology.com/" rel="noopener" target="_blank">
+            <b>Paramount Specialty Medical</b>
+            <span>TeleNephrology &middot; Florida</span>
+            <em>psmcnephrology.com</em>
+          </a></li>
+          <li><a href="https://thedailyketch.com/" rel="noopener" target="_blank">
+            <b>The Daily Ketch</b>
+            <span>Local news &middot; Ketchikan, AK</span>
+            <em>thedailyketch.com</em>
+          </a></li>
+          <li><a href="https://laserforge.co/" rel="noopener" target="_blank">
+            <b>The Laser Forge</b>
+            <span>Laser engraving &middot; San Diego, CA</span>
+            <em>laserforge.co</em>
+          </a></li>
+          <li><a href="https://gospelbillboardministries.com/" rel="noopener" target="_blank">
+            <b>Gospel Billboard Ministries</b>
+            <span>Ministry</span>
+            <em>gospelbillboardministries.com</em>
+          </a></li>
+          <li><a href="https://glampingreservadelruiz.website/" rel="noopener" target="_blank">
+            <b>Glamping Reserva del Ruiz</b>
+            <span>Hospitality &middot; Villamar&iacute;a, CO</span>
+            <em>glampingreservadelruiz.website</em>
+          </a></li>
+          <li><a href="https://envasesbio.cl/" rel="noopener" target="_blank">
+            <b>Envases Bio</b>
+            <span>Compostable packaging &middot; Chile</span>
+            <em>envasesbio.cl</em>
+          </a></li>
+          <li><a href="https://unisoftchile.cl/" rel="noopener" target="_blank">
+            <b>Unisoft</b>
+            <span>Adult care products &middot; Chile</span>
+            <em>unisoftchile.cl</em>
+          </a></li>
+          <li><a href="https://servigreen.cl/" rel="noopener" target="_blank">
+            <b>Servigreen</b>
+            <span>Sustainable landscaping &middot; Chile</span>
+            <em>servigreen.cl</em>
+          </a></li>
+          <li><a href="https://pavilalin.es/" rel="noopener" target="_blank">
+            <b>Pavilal&iacute;n S.L.</b>
+            <span>Sports &amp; industrial flooring &middot; Lal&iacute;n, ES</span>
+            <em>pavilalin.es</em>
+          </a></li>
+          <li><a href="https://veremacarretillas.com/" rel="noopener" target="_blank">
+            <b>Verema</b>
+            <span>Forklift dealer &middot; C&oacute;rdoba, ES</span>
+            <em>veremacarretillas.com</em>
+          </a></li>
+          <li><a href="https://mudanzasabrada.com/" rel="noopener" target="_blank">
+            <b>Mudanzas Abrada</b>
+            <span>Moving company &middot; Canary Islands, ES</span>
+            <em>mudanzasabrada.com</em>
+          </a></li>
+          <li><a href="https://zonabierta.com/" rel="noopener" target="_blank">
+            <b>Zonabierta</b>
+            <span>Recording studio &middot; Andaluc&iacute;a, ES</span>
+            <em>zonabierta.com</em>
+          </a></li>
+          <li><a href="https://mariagarciabas.com/" rel="noopener" target="_blank">
+            <b>Mar&iacute;a Garc&iacute;a Bas</b>
+            <span>Space consulting</span>
+            <em>mariagarciabas.com</em>
+          </a></li>
+          <li><a href="https://molvaro.es/" rel="noopener" target="_blank">
+            <b>Molvaro</b>
+            <span>Marketing agency &middot; Spain</span>
+            <em>molvaro.es</em>
+          </a></li>
+          <li><a href="https://anabaino.com/" rel="noopener" target="_blank">
+            <b>Anabaino</b>
+            <span>Marketing agency</span>
+            <em>anabaino.com</em>
+          </a></li>
+          <li><a href="https://bumeads.com/" rel="noopener" target="_blank">
+            <b>BumeAds</b>
+            <span>Marketing agency</span>
+            <em>bumeads.com</em>
+          </a></li>
+          <li><a href="https://zumiradigital.com/" rel="noopener" target="_blank">
+            <b>Zumira Digital</b>
+            <span>Paid media</span>
+            <em>zumiradigital.com</em>
+          </a></li>
+          <li><a href="https://velnox.ai/" rel="noopener" target="_blank">
+            <b>Velnox</b>
+            <span>AI growth systems</span>
+            <em>velnox.ai</em>
+          </a></li>
+        </ul>
+      </div>
+    </section>
+
     <section class="slab" aria-labelledby="cap-title">
       <div class="wrap">
         <p class="label" style="color:var(--smoke);margin:0">How I can help</p>
@@ -632,6 +814,8 @@
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('month').textContent =
+      new Date().toLocaleString('en', { month: 'long' });
 
     const items = document.querySelectorAll('.reveal');
     if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
