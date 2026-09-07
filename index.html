@@ -346,11 +346,112 @@
     .roster em {
       display: block;
       font-family: var(--mono);
-      font-size: .68rem;
+      font-size: .72rem;
       letter-spacing: .1em;
       text-transform: uppercase;
       font-style: normal;
     }
+
+
+    .lead {
+      display: grid;
+      /* One column per field on the first row, set explicitly: with auto-fit the
+         track count varies with the viewport and any track the three fields do
+         not fill shows up as a bare block of the container's line colour. */
+      grid-template-columns: 1fr;
+      gap: 1px;
+      margin: clamp(2.5rem, 6vw, 4rem) 0 0;
+      background: var(--line-inv);
+      border: 1px solid var(--line-inv);
+    }
+
+    .lead__field { background: var(--ink); padding: 1.1rem 1.25rem; }
+    .lead__field--wide { grid-column: 1 / -1; }
+    .lead__field:focus-within { background: #151515; }
+    .lead__field[data-invalid="true"] { box-shadow: inset 0 0 0 1px var(--paper); }
+
+    .lead__field label {
+      display: block;
+      font-family: var(--mono);
+      font-size: .72rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      opacity: .6;
+    }
+
+    .lead__field input,
+    .lead__field select,
+    .lead__field textarea {
+      width: 100%;
+      margin-top: .65rem;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      color: inherit;
+      font-family: var(--body);
+      font-size: 1rem;
+      line-height: 1.5;
+      resize: vertical;
+      /* 44px keeps the tap target comfortable on a phone; the label above it
+         is not clickable enough on its own. */
+      min-height: 2.75rem;
+    }
+
+    .lead__field select { cursor: pointer; }
+    .lead__field select option { background: var(--ink); color: var(--paper); }
+
+    .lead__field input::placeholder,
+    .lead__field textarea::placeholder { color: rgba(244, 244, 241, .35); }
+
+    .lead__field input:focus,
+    .lead__field select:focus,
+    .lead__field textarea:focus { outline: none; }
+
+    .lead__hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+
+    .lead__actions {
+      grid-column: 1 / -1;
+      background: var(--ink);
+      padding: 1.25rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 1rem 1.5rem;
+    }
+
+    .lead__submit {
+      font-family: var(--display);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: -.01em;
+      font-size: 1.05rem;
+      padding: .85rem 1.75rem;
+      background: var(--paper);
+      color: var(--ink);
+      border: 1px solid var(--paper);
+      cursor: pointer;
+      transition: background .3s ease, color .3s ease;
+    }
+
+    .lead__submit:hover:not(:disabled),
+    .lead__submit:focus-visible:not(:disabled) { background: transparent; color: var(--paper); }
+    .lead__submit:disabled { opacity: .55; cursor: progress; }
+
+    .lead__status {
+      margin: 0;
+      font-family: var(--mono);
+      font-size: .75rem;
+      line-height: 1.5;
+      letter-spacing: .04em;
+      max-width: 44ch;
+      opacity: .85;
+    }
+
+    @media (min-width: 48rem) {
+      .lead { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    .links--alt { margin-top: clamp(2rem, 4vw, 3rem); }
 
     .roster span { margin-top: .5rem; opacity: .6; }
     .roster em { margin-top: .2rem; opacity: .85; text-transform: none; letter-spacing: .04em; }
@@ -797,7 +898,46 @@
         <h2 class="contact__title" id="contact-title">Send me<br>the idea</h2>
         <p class="note reveal" style="color:rgba(244,244,241,.75)">A message with what you want to build is enough. I'll tell you if I'm the right fit, what it takes, and what it costs — usually the same day.</p>
 
-        <ul class="links">
+
+        <form class="lead reveal" id="lead-form" novalidate>
+          <div class="lead__field">
+            <label for="lead-name">Name</label>
+            <input id="lead-name" name="name" type="text" autocomplete="name" maxlength="80" placeholder="Your name" required>
+          </div>
+
+          <div class="lead__field">
+            <label for="lead-email">Email</label>
+            <input id="lead-email" name="email" type="email" autocomplete="email" maxlength="120" placeholder="name@company.com" required>
+          </div>
+
+          <div class="lead__field">
+            <label for="lead-budget">Budget</label>
+            <select id="lead-budget" name="budget">
+              <option value="Not sure yet">Not sure yet</option>
+              <option value="Under 1k USD">Under $1,000</option>
+              <option value="1k-5k USD">$1,000 &ndash; $5,000</option>
+              <option value="5k-15k USD">$5,000 &ndash; $15,000</option>
+              <option value="15k+ USD">$15,000 and up</option>
+            </select>
+          </div>
+
+          <div class="lead__field lead__field--wide">
+            <label for="lead-message">What do you want to build?</label>
+            <textarea id="lead-message" name="message" rows="4" maxlength="2000" placeholder="What it is, who it is for, and anything that already exists." required></textarea>
+          </div>
+
+          <p class="lead__hp" aria-hidden="true">
+            <label for="lead-website">Company website</label>
+            <input id="lead-website" name="website" type="text" tabindex="-1" autocomplete="off">
+          </p>
+
+          <div class="lead__actions">
+            <button class="lead__submit" type="submit">Send the idea</button>
+            <p class="lead__status" id="lead-status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+
+        <ul class="links links--alt">
           <li><a href="https://wa.me/573225995271" rel="noopener" target="_blank">WhatsApp <span>Fastest reply</span></a></li>
           <li><a href="https://www.fiverr.com/pablonietop" rel="noopener" target="_blank">Fiverr <span>180+ reviews</span></a></li>
           <li><a href="https://www.linkedin.com/in/pablo-nieto-perez-39a530292" rel="noopener" target="_blank">LinkedIn <span>Profile</span></a></li>
@@ -816,6 +956,88 @@
     document.getElementById('year').textContent = new Date().getFullYear();
     document.getElementById('month').textContent =
       new Date().toLocaleString('en', { month: 'long' });
+
+    (function () {
+      const form = document.getElementById('lead-form');
+      if (!form) return;
+
+      const status = document.getElementById('lead-status');
+      const submit = form.querySelector('.lead__submit');
+      const idleLabel = submit.textContent;
+      const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+
+      const field = (el) => el.closest('.lead__field');
+
+      const clear = (el) => {
+        el.removeAttribute('aria-invalid');
+        const f = field(el);
+        if (f) delete f.dataset.invalid;
+      };
+
+      const reject = (el, message) => {
+        el.setAttribute('aria-invalid', 'true');
+        const f = field(el);
+        if (f) f.dataset.invalid = 'true';
+        status.textContent = message;
+        el.focus();
+      };
+
+      form.addEventListener('input', (event) => {
+        if (event.target.getAttribute('aria-invalid') !== 'true') return;
+        clear(event.target);
+        status.textContent = '';
+      });
+
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        if (submit.disabled) return;
+
+        const name = document.getElementById('lead-name');
+        const email = document.getElementById('lead-email');
+        const message = document.getElementById('lead-message');
+
+        if (name.value.trim().length < 2) {
+          reject(name, 'Tell me your name, so I know who I am replying to.');
+          return;
+        }
+        if (!EMAIL.test(email.value.trim())) {
+          reject(email, 'Enter a valid email, for example name@company.com.');
+          return;
+        }
+        if (message.value.trim().length < 20) {
+          reject(message, 'A couple of sentences about the project is enough — at least 20 characters.');
+          return;
+        }
+
+        submit.disabled = true;
+        submit.textContent = 'Sending…';
+        status.textContent = 'Sending your message…';
+
+        const payload = {
+          name: name.value.trim(),
+          email: email.value.trim(),
+          message: message.value.trim(),
+          budget: document.getElementById('lead-budget').value,
+          website: document.getElementById('lead-website').value,
+        };
+
+        try {
+          const response = await fetch('/api/lead', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload),
+          });
+          const result = await response.json().catch(() => ({}));
+          if (!response.ok || !result.ok) throw new Error(result.error || 'failed');
+          window.location.assign('gracias.html');
+        } catch (error) {
+          submit.disabled = false;
+          submit.textContent = idleLabel;
+          status.textContent = 'That did not go through. Message me on WhatsApp instead, or try again in a moment.';
+        }
+      });
+    })();
+
 
     const items = document.querySelectorAll('.reveal');
     if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {

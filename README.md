@@ -22,7 +22,7 @@
 
 Full Stack Developer with 4+ years building web applications. I work with Next.js, React, TypeScript, and Supabase to create business management systems and custom solutions.
 
-**All repositories are private.** Portfolio, case studies, and live projects at **[wib.digital](https://www.wib.digital/)**.
+Portfolio and client work at **[pablo.wib.digital](https://pablo.wib.digital/)**, studio at **[wib.digital](https://www.wib.digital/)**. Client repositories are private; the front-end demos and UI studies in this account are public and live at `pablowib.github.io/<repo>/`.
 
 ---
 
@@ -69,5 +69,22 @@ I build **custom internal tools, CRMs and dashboards** for small teams, and **co
 | [Custom internal tool, CRM or dashboard](https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business) | $45 |
 | [Conversion-focused website](https://www.fiverr.com/pablonietop/convert-your-landing-page-design-to-code) | $80 |
 | [All services](https://www.fiverr.com/pablonietop) | — |
+
+---
+
+## This Repository
+
+Besides the profile README, this repo holds the source of **[pablo.wib.digital](https://pablo.wib.digital/)**: a static site with no build step, deployed on Vercel, plus one serverless function for the lead form.
+
+```
+index.html      the portfolio: hero, selected work, client index, lead form
+gracias.html    confirmation page the form redirects to
+404.html        not-found page
+api/lead.js     lead form endpoint, sends through Resend
+```
+
+Technical notes, design tokens and the steps to add a client are in **[docs/sitio.md](docs/sitio.md)**.
+
+---
 
 **Pablo Nieto Pérez** · [wib.digital](https://www.wib.digital/) · [@pabloWIB](https://github.com/pabloWIB)
