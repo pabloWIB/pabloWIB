@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business">
-    <img src="https://pablo-wib.vercel.app/1.png" />
+    <img src="1.png" alt="Internal tools that run your business" />
   </a>
 </p>
 
