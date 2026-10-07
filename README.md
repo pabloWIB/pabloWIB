@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://www.wib.digital/"><img src="https://img.shields.io/badge/WIB.DIGITAL-36BCF7?style=for-the-badge" alt="Portfolio" /></a>
-  <a href="https://www.fiverr.com/pablonietop"><img src="https://img.shields.io/badge/Hire%20me%20on-Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Fiverr" /></a>
+  <a href="https://www.fiverr.com/pablonietop"><img src="https://img.shields.io/badge/Hire%20me%20on%20Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Hire me on Fiverr" /></a>
   <a href="https://www.instagram.com/wib.digital/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 </p>
 
@@ -22,7 +22,7 @@
 
 Full Stack Developer with 4+ years building web applications. I work with Next.js, React, TypeScript, and Supabase to create business management systems and custom solutions.
 
-Portfolio and client work at **[pablo.wib.digital](https://pablo.wib.digital/)**, studio at **[wib.digital](https://www.wib.digital/)**. Client repositories are private; the front-end demos and UI studies in this account are public and live at `pablowib.github.io/<repo>/`.
+My studio is **[wib.digital](https://www.wib.digital/)**. Client repositories are private.
 
 ---
 
@@ -56,7 +56,7 @@ Also working with C/AL & Microsoft Business Central, ERP systems, and Report Bui
 - Design databases and APIs with PostgreSQL
 - Create financial management systems (loans, inventory, analytics)
 
-4+ years full stack development · 194+ delivered projects
+4+ years full stack development · 235+ delivered projects
 
 ---
 
@@ -66,24 +66,9 @@ I build **custom internal tools, CRMs and dashboards** for small teams, and **co
 
 | Service | From |
 |---|---|
-| [Custom internal tool, CRM or dashboard](https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business) | $45 |
+| [Custom internal tool, CRM or dashboard](https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business) | $80 |
 | [Conversion-focused website](https://www.fiverr.com/pablonietop/convert-your-landing-page-design-to-code) | $80 |
 | [All services](https://www.fiverr.com/pablonietop) | — |
-
----
-
-## This Repository
-
-Besides the profile README, this repo holds the source of **[pablo.wib.digital](https://pablo.wib.digital/)**: a static site with no build step, deployed on Vercel, plus one serverless function for the lead form.
-
-```
-index.html      the portfolio: hero, selected work, client index, lead form
-gracias.html    confirmation page the form redirects to
-404.html        not-found page
-api/lead.js     lead form endpoint, sends through Resend
-```
-
-Technical notes, design tokens and the steps to add a client are in **[docs/sitio.md](docs/sitio.md)**.
 
 ---
 
