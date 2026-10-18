@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business">
-    <img src="portada-apps-2026-10-17.jpg" alt="Hear about a stuck job before the client calls: a custom internal app with every job on one board" />
+    <img src="portada-apps-2026-10-17.gif" alt="Hear about a stuck job before the client calls: a custom internal app with every job on one board" />
   </a>
 </p>
 
