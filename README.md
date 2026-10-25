@@ -1,7 +1,7 @@
 <h1>Hello, I'm Pablo</h1>
 
 <p>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&vCenter=true&width=720&lines=We+take+software+products;make+them+better;and+bring+them+to+market+with+a+more+complete+brand" alt="We take software products, make them better and bring them to market with a more complete brand" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2300&pause=1200&color=36BCF7&vCenter=true&width=330&lines=We+take+software+products;make+them+better;and+bring+them+to+market;with+a+more+complete+brand" alt="We take software products, make them better and bring them to market with a more complete brand" />
 </p>
 
 <p>
@@ -46,7 +46,7 @@ Real results:
 **Frontend & Full Stack**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,angular,astro,vite,typescript,tailwind,sass,nodejs,php,python,r" alt="Next.js, React, Angular, Astro, Vite, TypeScript, Tailwind, Sass, Node.js, PHP, Python, R" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,angular,astro,vite,typescript,tailwind,nodejs,php,python" alt="Next.js, React, Angular, Astro, Vite, TypeScript, Tailwind, Node.js, PHP, Python" />
 </p>
 
 **Database**
@@ -58,7 +58,7 @@ Real results:
 **Tools & Deployment**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=vercel,cloudflare,gcp,docker,git,github,bash,androidstudio,figma,ps,postman,wordpress" alt="Vercel, Cloudflare, Google Cloud, Docker, Git, GitHub, Bash, Android Studio, Figma, Photoshop, Postman, WordPress" />
+  <img src="https://skillicons.dev/icons?i=vercel,cloudflare,gcp,docker,git,github,bash,androidstudio,figma,ps,postman,wordpress,sass,r" alt="Vercel, Cloudflare, Google Cloud, Docker, Git, GitHub, Bash, Android Studio, Figma, Photoshop, Postman, WordPress, Sass, R" />
 </p>
 
 Also working with C/AL & Microsoft Business Central, ERP systems, and Report Builder.
