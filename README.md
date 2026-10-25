@@ -76,7 +76,7 @@ Also working with C/AL & Microsoft Business Central, ERP systems, and Report Bui
   </tr>
   <tr>
     <td>
-      <a href="https://www.fiverr.com/pablonietop/set-up-google-and-meta-ads-with-tracking-that-sees-every-lead-and-sale"><img src="servicio-ads.jpg" width="100%" alt="Set up Google and Meta ads with tracking that sees every lead and sale" /></a><br />
+      <a href="https://www.fiverr.com/pablonietop/set-up-google-and-meta-ads-with-tracking-that-sees-every-lead-and-sale"><img src="servicio-anuncios.jpg" width="100%" alt="Set up Google and Meta ads with tracking that sees every lead and sale" /></a><br />
       <a href="https://www.fiverr.com/pablonietop/set-up-google-and-meta-ads-with-tracking-that-sees-every-lead-and-sale"><b>Set up Google and Meta ads with tracking that sees every lead and sale</b></a>
     </td>
   </tr>
