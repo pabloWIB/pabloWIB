@@ -13,7 +13,7 @@
 
 <p>
   <a href="https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business">
-    <img src="portada-apps-2026-10-17.gif" alt="Hear about a stuck job before the client calls: a custom internal app with every job on one board" />
+    <img src="portada-apps-2026-10-25.gif" alt="Hear about a stuck job before the client calls: a custom internal app with every job on one board" />
   </a>
 </p>
 
@@ -46,19 +46,19 @@ Real results:
 **Frontend & Full Stack**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,angular,typescript,tailwind,sass,php,python" alt="Next.js, React, Angular, TypeScript, Tailwind, Sass, PHP, Python" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,angular,astro,vite,typescript,tailwind,sass,nodejs,php,python,r" alt="Next.js, React, Angular, Astro, Vite, TypeScript, Tailwind, Sass, Node.js, PHP, Python, R" />
 </p>
 
 **Database**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=mysql,postgresql" alt="MySQL, PostgreSQL" />
+  <img src="https://skillicons.dev/icons?i=mysql,postgresql,supabase" alt="MySQL, PostgreSQL, Supabase" />
 </p>
 
 **Tools & Deployment**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=supabase,vercel,git,github,docker,figma,ps,postman,wordpress" alt="Supabase, Vercel, Git, GitHub, Docker, Figma, Photoshop, Postman, WordPress" />
+  <img src="https://skillicons.dev/icons?i=vercel,cloudflare,gcp,docker,git,github,bash,androidstudio,figma,ps,postman,wordpress" alt="Vercel, Cloudflare, Google Cloud, Docker, Git, GitHub, Bash, Android Studio, Figma, Photoshop, Postman, WordPress" />
 </p>
 
 Also working with C/AL & Microsoft Business Central, ERP systems, and Report Builder.
@@ -70,11 +70,11 @@ Also working with C/AL & Microsoft Business Central, ERP systems, and Report Bui
 <table>
   <tr>
     <td width="33%">
-      <a href="https://www.fiverr.com/pablonietop/convert-your-landing-page-design-to-code"><img src="gig-web-video.jpg" alt="Business website or landing page in WordPress" /></a><br />
+      <a href="https://www.fiverr.com/pablonietop/convert-your-landing-page-design-to-code"><img src="gig-web.gif" alt="Business website or landing page in WordPress" /></a><br />
       <a href="https://www.fiverr.com/pablonietop/convert-your-landing-page-design-to-code"><b>Business website or landing page in WordPress</b></a>
     </td>
     <td width="33%">
-      <a href="https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business"><img src="gig-apps-video.jpg" alt="Custom internal app for small teams" /></a><br />
+      <a href="https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business"><img src="gig-apps.gif" alt="Custom internal app for small teams" /></a><br />
       <a href="https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business"><b>Custom internal app for small teams</b></a>
     </td>
     <td width="33%">
