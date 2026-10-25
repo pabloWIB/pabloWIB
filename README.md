@@ -1,7 +1,7 @@
 <h1 align="center">Hello, I'm Pablo</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=560&lines=I+take+what+AI+started;and+make+it+work+for+real+customers;then+put+it+in+front+of+people+who+pay" alt="I take what AI started, make it work for real customers and put it in front of people who pay" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=720&lines=We+take+software+products;make+them+better;and+bring+them+to+market+with+a+more+complete+brand" alt="We take software products, make them better and bring them to market with a more complete brand" />
 </p>
 
 <p align="center">
@@ -68,15 +68,25 @@ Also working with C/AL & Microsoft Business Central, ERP systems, and Report Bui
 
 ## Work With Me
 
-| Service | Rating | From |
-|---|---|---|
-| [Business website or landing page in WordPress](https://www.fiverr.com/pablonietop/convert-your-landing-page-design-to-code) | 5.0 (73) | US$80 |
-| [Custom internal app for small teams](https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business) | 5.0 (12) | US$45 |
-| [Turn your Lovable, Bolt or v0 prototype into a SaaS for paying users](https://www.fiverr.com/pablonietop/fix-and-finish-your-lovable-bolt-or-v0-app-and-launch-it-for-real-users) | New | US$20 |
-| [Turn your Lovable or Bolt app into an Android app for Google Play](https://www.fiverr.com/pablonietop/turn-your-lovable-or-bolt-app-into-a-working-android-app-for-google-play) | New | US$100 |
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://www.fiverr.com/pablonietop/convert-your-landing-page-design-to-code"><img src="gig-web.jpg" alt="Business website or landing page in WordPress" /></a><br />
+      <a href="https://www.fiverr.com/pablonietop/convert-your-landing-page-design-to-code"><b>Business website or landing page in WordPress</b></a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business"><img src="gig-apps.jpg" alt="Custom internal app for small teams" /></a><br />
+      <a href="https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business"><b>Custom internal app for small teams</b></a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://www.fiverr.com/pablonietop/set-up-google-and-meta-ads-with-tracking-that-sees-every-lead-and-sale"><img src="gig-ads.jpg" alt="Set up Google and Meta ads with tracking that sees every lead and sale" /></a><br />
+      <a href="https://www.fiverr.com/pablonietop/set-up-google-and-meta-ads-with-tracking-that-sees-every-lead-and-sale"><b>Set up Google and Meta ads with tracking that sees every lead and sale</b></a>
+    </td>
+  </tr>
+</table>
 
 [See all my services on Fiverr](https://www.fiverr.com/pablonietop)
 
 ---
 
-**Pablo Nieto Pérez** · [wib.labs](https://www.wib.digital/) · [@pabloWIB](https://github.com/pabloWIB)
+**Pablo Nieto Pérez** · [wib.labs](https://www.wib.digital/) · [pablonietop on Fiverr](https://www.fiverr.com/pablonietop)
