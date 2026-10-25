@@ -46,7 +46,7 @@ Real results:
 **Frontend & Full Stack**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,sass,php" alt="Next.js, React, TypeScript, Tailwind, Sass, PHP" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,angular,typescript,tailwind,sass,php,python" alt="Next.js, React, Angular, TypeScript, Tailwind, Sass, PHP, Python" />
 </p>
 
 **Database**
