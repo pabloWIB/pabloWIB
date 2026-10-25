@@ -70,20 +70,20 @@ Also working with C/AL & Microsoft Business Central, ERP systems, and Report Bui
 <table>
   <tr>
     <td>
-      <a href="https://www.fiverr.com/pablonietop/convert-your-landing-page-design-to-code"><img src="gig-web.jpg" width="100%" alt="Business website or landing page in WordPress" /></a><br />
+      <a href="https://www.fiverr.com/pablonietop/convert-your-landing-page-design-to-code"><img src="servicio-web.jpg" width="100%" alt="Business website or landing page in WordPress" /></a><br />
       <a href="https://www.fiverr.com/pablonietop/convert-your-landing-page-design-to-code"><b>Business website or landing page in WordPress</b></a>
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business"><img src="gig-apps.jpg" width="100%" alt="Custom internal app for small teams" /></a><br />
-      <a href="https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business"><b>Custom internal app for small teams</b></a>
+      <a href="https://www.fiverr.com/pablonietop/set-up-google-and-meta-ads-with-tracking-that-sees-every-lead-and-sale"><img src="servicio-ads.jpg" width="100%" alt="Set up Google and Meta ads with tracking that sees every lead and sale" /></a><br />
+      <a href="https://www.fiverr.com/pablonietop/set-up-google-and-meta-ads-with-tracking-that-sees-every-lead-and-sale"><b>Set up Google and Meta ads with tracking that sees every lead and sale</b></a>
     </td>
   </tr>
   <tr>
     <td>
-      <a href="https://www.fiverr.com/pablonietop/set-up-google-and-meta-ads-with-tracking-that-sees-every-lead-and-sale"><img src="gig-ads-video.jpg" width="100%" alt="Set up Google and Meta ads with tracking that sees every lead and sale" /></a><br />
-      <a href="https://www.fiverr.com/pablonietop/set-up-google-and-meta-ads-with-tracking-that-sees-every-lead-and-sale"><b>Set up Google and Meta ads with tracking that sees every lead and sale</b></a>
+      <a href="https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business"><img src="servicio-apps.jpg" width="100%" alt="Custom internal app for small teams" /></a><br />
+      <a href="https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business"><b>Custom internal app for small teams</b></a>
     </td>
   </tr>
 </table>
