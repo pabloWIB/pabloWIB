@@ -1,18 +1,17 @@
-<h1 align="center">Hello, I'm Pablo</h1>
+<h1>Hello, I'm Pablo</h1>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=720&lines=We+take+software+products;make+them+better;and+bring+them+to+market+with+a+more+complete+brand" alt="We take software products, make them better and bring them to market with a more complete brand" />
+<p>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&vCenter=true&width=720&lines=We+take+software+products;make+them+better;and+bring+them+to+market+with+a+more+complete+brand" alt="We take software products, make them better and bring them to market with a more complete brand" />
 </p>
 
-<p align="center">
+<p>
   <a href="https://www.wib.digital/"><img src="https://img.shields.io/badge/wib.labs-0033AD?style=for-the-badge" alt="wib.labs" /></a>
   <a href="https://www.fiverr.com/pablonietop"><img src="https://img.shields.io/badge/Hire%20me%20on%20Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" alt="Hire me on Fiverr" /></a>
   <a href="https://www.linkedin.com/company/wiblabs"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://www.instagram.com/wib.labs/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  <a href="https://x.com/wiblabs"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" /></a>
 </p>
 
-<p align="center">
+<p>
   <a href="https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business">
     <img src="portada-apps-2026-10-17.gif" alt="Hear about a stuck job before the client calls: a custom internal app with every job on one board" />
   </a>
@@ -70,15 +69,15 @@ Also working with C/AL & Microsoft Business Central, ERP systems, and Report Bui
 
 <table>
   <tr>
-    <td align="center" width="33%">
+    <td width="33%">
       <a href="https://www.fiverr.com/pablonietop/convert-your-landing-page-design-to-code"><img src="gig-web.jpg" alt="Business website or landing page in WordPress" /></a><br />
       <a href="https://www.fiverr.com/pablonietop/convert-your-landing-page-design-to-code"><b>Business website or landing page in WordPress</b></a>
     </td>
-    <td align="center" width="33%">
+    <td width="33%">
       <a href="https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business"><img src="gig-apps.jpg" alt="Custom internal app for small teams" /></a><br />
       <a href="https://www.fiverr.com/pablonietop/build-a-custom-internal-app-for-your-business"><b>Custom internal app for small teams</b></a>
     </td>
-    <td align="center" width="33%">
+    <td width="33%">
       <a href="https://www.fiverr.com/pablonietop/set-up-google-and-meta-ads-with-tracking-that-sees-every-lead-and-sale"><img src="gig-ads.jpg" alt="Set up Google and Meta ads with tracking that sees every lead and sale" /></a><br />
       <a href="https://www.fiverr.com/pablonietop/set-up-google-and-meta-ads-with-tracking-that-sees-every-lead-and-sale"><b>Set up Google and Meta ads with tracking that sees every lead and sale</b></a>
     </td>
