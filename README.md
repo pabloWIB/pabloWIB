@@ -46,7 +46,7 @@ Real results:
 **Frontend & Full Stack**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,angular,astro,typescript,tailwind,nodejs,php,python" alt="Next.js, React, Angular, Astro, TypeScript, Tailwind, Node.js, PHP, Python" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,angular,typescript,tailwind,nodejs,php,python" alt="Next.js, React, Angular, TypeScript, Tailwind, Node.js, PHP, Python" />
 </p>
 
 **Database**
@@ -58,7 +58,7 @@ Real results:
 **Tools & Deployment**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=vercel,cloudflare,gcp,docker,git,github,androidstudio,figma,ps,postman,wordpress,sass,r" alt="Vercel, Cloudflare, Google Cloud, Docker, Git, GitHub, Android Studio, Figma, Photoshop, Postman, WordPress, Sass, R" />
+  <img src="https://skillicons.dev/icons?i=vercel,cloudflare,gcp,docker,git,figma,ps,postman,wordpress,r" alt="Vercel, Cloudflare, Google Cloud, Docker, Git, Figma, Photoshop, Postman, WordPress, R" />
 </p>
 
 Also working with C/AL & Microsoft Business Central, ERP systems, and Report Builder.
