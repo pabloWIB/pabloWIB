@@ -1,7 +1,7 @@
 <h1>Hello, I'm Pablo</h1>
 
 <p>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2300&pause=1200&color=36BCF7&vCenter=true&width=330&lines=We+take+software+products;make+them+better;and+bring+them+to+market;with+a+more+complete+brand" alt="We take software products, make them better and bring them to market with a more complete brand" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2300&pause=1200&color=36BCF7&vCenter=true&width=480&lines=Full+stack+developer;I+take+what+AI+started;and+make+it+work+for+real+customers;then+put+it+in+front+of+people+who+pay" alt="Full stack developer. I take what AI started and make it work for real customers, then put it in front of people who pay." />
 </p>
 
 <p>
